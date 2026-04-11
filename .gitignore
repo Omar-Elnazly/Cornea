@@ -1,0 +1,9 @@
+data/
+output/checkpoints/
+*.pth
+*.pth.tar
+*.mp4
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+submission.csv

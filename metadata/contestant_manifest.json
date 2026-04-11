@@ -1,0 +1,2758 @@
+{
+  "train": {
+    "dataset1/Car_video_2": {
+      "dataset": "dataset1",
+      "seq_name": "Car_video_2",
+      "n_frames": 678,
+      "native_fps": 60,
+      "video_path": "dataset1/Car_video_2/Car_video_2.mp4",
+      "annotation_path": "dataset1/Car_video_2/annotation.txt"
+    },
+    "dataset1/Car_video_3": {
+      "dataset": "dataset1",
+      "seq_name": "Car_video_3",
+      "n_frames": 223,
+      "native_fps": 24,
+      "video_path": "dataset1/Car_video_3/Car_video_3.mp4",
+      "annotation_path": "dataset1/Car_video_3/annotation.txt"
+    },
+    "dataset1/horse_4": {
+      "dataset": "dataset1",
+      "seq_name": "horse_4",
+      "n_frames": 235,
+      "native_fps": 25,
+      "video_path": "dataset1/horse_4/horse_4.mp4",
+      "annotation_path": "dataset1/horse_4/annotation.txt"
+    },
+    "dataset1/horse_6": {
+      "dataset": "dataset1",
+      "seq_name": "horse_6",
+      "n_frames": 448,
+      "native_fps": 30,
+      "video_path": "dataset1/horse_6/horse_6.mp4",
+      "annotation_path": "dataset1/horse_6/annotation.txt"
+    },
+    "dataset1/motorcycle": {
+      "dataset": "dataset1",
+      "seq_name": "motorcycle",
+      "n_frames": 801,
+      "native_fps": 30,
+      "video_path": "dataset1/motorcycle/motorcycle.mp4",
+      "annotation_path": "dataset1/motorcycle/annotation.txt"
+    },
+    "dataset1/person_4": {
+      "dataset": "dataset1",
+      "seq_name": "person_4",
+      "n_frames": 602,
+      "native_fps": 24,
+      "video_path": "dataset1/person_4/person_4.mp4",
+      "annotation_path": "dataset1/person_4/annotation.txt"
+    },
+    "dataset1/plane": {
+      "dataset": "dataset1",
+      "seq_name": "plane",
+      "n_frames": 358,
+      "native_fps": 30,
+      "video_path": "dataset1/plane/plane.mp4",
+      "annotation_path": "dataset1/plane/annotation.txt"
+    },
+    "dataset1/surfer": {
+      "dataset": "dataset1",
+      "seq_name": "surfer",
+      "n_frames": 150,
+      "native_fps": 30,
+      "video_path": "dataset1/surfer/surfer.mp4",
+      "annotation_path": "dataset1/surfer/annotation.txt"
+    },
+    "dataset1/volleyball": {
+      "dataset": "dataset1",
+      "seq_name": "volleyball",
+      "n_frames": 2088,
+      "native_fps": 50,
+      "video_path": "dataset1/volleyball/volleyball.mp4",
+      "annotation_path": "dataset1/volleyball/annotation.txt"
+    },
+    "dataset2/Animal1": {
+      "dataset": "dataset2",
+      "seq_name": "Animal1",
+      "n_frames": 147,
+      "native_fps": 30,
+      "video_path": "dataset2/Animal1/Animal1_30.mp4",
+      "annotation_path": "dataset2/Animal1/annotation.txt"
+    },
+    "dataset2/Animal2": {
+      "dataset": "dataset2",
+      "seq_name": "Animal2",
+      "n_frames": 149,
+      "native_fps": 30,
+      "video_path": "dataset2/Animal2/Animal2_30.mp4",
+      "annotation_path": "dataset2/Animal2/annotation.txt"
+    },
+    "dataset2/Animal4": {
+      "dataset": "dataset2",
+      "seq_name": "Animal4",
+      "n_frames": 167,
+      "native_fps": 24,
+      "video_path": "dataset2/Animal4/Animal4_24.mp4",
+      "annotation_path": "dataset2/Animal4/annotation.txt"
+    },
+    "dataset2/BMX2": {
+      "dataset": "dataset2",
+      "seq_name": "BMX2",
+      "n_frames": 160,
+      "native_fps": 30,
+      "video_path": "dataset2/BMX2/BMX2_30.mp4",
+      "annotation_path": "dataset2/BMX2/annotation.txt"
+    },
+    "dataset2/BMX3": {
+      "dataset": "dataset2",
+      "seq_name": "BMX3",
+      "n_frames": 121,
+      "native_fps": 30,
+      "video_path": "dataset2/BMX3/BMX3_30.mp4",
+      "annotation_path": "dataset2/BMX3/annotation.txt"
+    },
+    "dataset2/BMX4": {
+      "dataset": "dataset2",
+      "seq_name": "BMX4",
+      "n_frames": 364,
+      "native_fps": 30,
+      "video_path": "dataset2/BMX4/BMX4_30.mp4",
+      "annotation_path": "dataset2/BMX4/annotation.txt"
+    },
+    "dataset2/BMX5": {
+      "dataset": "dataset2",
+      "seq_name": "BMX5",
+      "n_frames": 277,
+      "native_fps": 30,
+      "video_path": "dataset2/BMX5/BMX5_30.mp4",
+      "annotation_path": "dataset2/BMX5/annotation.txt"
+    },
+    "dataset2/Basketball": {
+      "dataset": "dataset2",
+      "seq_name": "Basketball",
+      "n_frames": 427,
+      "native_fps": 24,
+      "video_path": "dataset2/Basketball/Basketball_24.mp4",
+      "annotation_path": "dataset2/Basketball/annotation.txt"
+    },
+    "dataset2/Car2": {
+      "dataset": "dataset2",
+      "seq_name": "Car2",
+      "n_frames": 74,
+      "native_fps": 24,
+      "video_path": "dataset2/Car2/Car2_24.mp4",
+      "annotation_path": "dataset2/Car2/annotation.txt"
+    },
+    "dataset2/Car6": {
+      "dataset": "dataset2",
+      "seq_name": "Car6",
+      "n_frames": 381,
+      "native_fps": 24,
+      "video_path": "dataset2/Car6/Car6_24.mp4",
+      "annotation_path": "dataset2/Car6/annotation.txt"
+    },
+    "dataset2/Car8": {
+      "dataset": "dataset2",
+      "seq_name": "Car8",
+      "n_frames": 319,
+      "native_fps": 24,
+      "video_path": "dataset2/Car8/Car8_24.mp4",
+      "annotation_path": "dataset2/Car8/annotation.txt"
+    },
+    "dataset2/ChasingDrones": {
+      "dataset": "dataset2",
+      "seq_name": "ChasingDrones",
+      "n_frames": 212,
+      "native_fps": 24,
+      "video_path": "dataset2/ChasingDrones/ChasingDrones_24.mp4",
+      "annotation_path": "dataset2/ChasingDrones/annotation.txt"
+    },
+    "dataset2/Girl1": {
+      "dataset": "dataset2",
+      "seq_name": "Girl1",
+      "n_frames": 218,
+      "native_fps": 30,
+      "video_path": "dataset2/Girl1/Girl1_30.mp4",
+      "annotation_path": "dataset2/Girl1/annotation.txt"
+    },
+    "dataset2/Girl2": {
+      "dataset": "dataset2",
+      "seq_name": "Girl2",
+      "n_frames": 626,
+      "native_fps": 24,
+      "video_path": "dataset2/Girl2/Girl2_24.mp4",
+      "annotation_path": "dataset2/Girl2/annotation.txt"
+    },
+    "dataset2/Gull1": {
+      "dataset": "dataset2",
+      "seq_name": "Gull1",
+      "n_frames": 120,
+      "native_fps": 24,
+      "video_path": "dataset2/Gull1/Gull1_24.mp4",
+      "annotation_path": "dataset2/Gull1/annotation.txt"
+    },
+    "dataset2/Gull2": {
+      "dataset": "dataset2",
+      "seq_name": "Gull2",
+      "n_frames": 237,
+      "native_fps": 24,
+      "video_path": "dataset2/Gull2/Gull2_24.mp4",
+      "annotation_path": "dataset2/Gull2/annotation.txt"
+    },
+    "dataset2/Horse2": {
+      "dataset": "dataset2",
+      "seq_name": "Horse2",
+      "n_frames": 126,
+      "native_fps": 24,
+      "video_path": "dataset2/Horse2/Horse2_24.mp4",
+      "annotation_path": "dataset2/Horse2/annotation.txt"
+    },
+    "dataset2/Kiting": {
+      "dataset": "dataset2",
+      "seq_name": "Kiting",
+      "n_frames": 129,
+      "native_fps": 24,
+      "video_path": "dataset2/Kiting/Kiting_24.mp4",
+      "annotation_path": "dataset2/Kiting/annotation.txt"
+    },
+    "dataset2/ManRunning1": {
+      "dataset": "dataset2",
+      "seq_name": "ManRunning1",
+      "n_frames": 619,
+      "native_fps": 24,
+      "video_path": "dataset2/ManRunning1/ManRunning1_24.mp4",
+      "annotation_path": "dataset2/ManRunning1/annotation.txt"
+    },
+    "dataset2/ManRunning2": {
+      "dataset": "dataset2",
+      "seq_name": "ManRunning2",
+      "n_frames": 260,
+      "native_fps": 24,
+      "video_path": "dataset2/ManRunning2/ManRunning2_24.mp4",
+      "annotation_path": "dataset2/ManRunning2/annotation.txt"
+    },
+    "dataset2/Motor2": {
+      "dataset": "dataset2",
+      "seq_name": "Motor2",
+      "n_frames": 68,
+      "native_fps": 24,
+      "video_path": "dataset2/Motor2/Motor2_24.mp4",
+      "annotation_path": "dataset2/Motor2/annotation.txt"
+    },
+    "dataset2/MountainBike1": {
+      "dataset": "dataset2",
+      "seq_name": "MountainBike1",
+      "n_frames": 109,
+      "native_fps": 30,
+      "video_path": "dataset2/MountainBike1/MountainBike1_30.mp4",
+      "annotation_path": "dataset2/MountainBike1/annotation.txt"
+    },
+    "dataset2/MountainBike6": {
+      "dataset": "dataset2",
+      "seq_name": "MountainBike6",
+      "n_frames": 81,
+      "native_fps": 30,
+      "video_path": "dataset2/MountainBike6/MountainBike6_30.mp4",
+      "annotation_path": "dataset2/MountainBike6/annotation.txt"
+    },
+    "dataset2/Paragliding3": {
+      "dataset": "dataset2",
+      "seq_name": "Paragliding3",
+      "n_frames": 211,
+      "native_fps": 24,
+      "video_path": "dataset2/Paragliding3/Paragliding3_24.mp4",
+      "annotation_path": "dataset2/Paragliding3/annotation.txt"
+    },
+    "dataset2/Paragliding5": {
+      "dataset": "dataset2",
+      "seq_name": "Paragliding5",
+      "n_frames": 220,
+      "native_fps": 24,
+      "video_path": "dataset2/Paragliding5/Paragliding5_24.mp4",
+      "annotation_path": "dataset2/Paragliding5/annotation.txt"
+    },
+    "dataset2/RaceCar": {
+      "dataset": "dataset2",
+      "seq_name": "RaceCar",
+      "n_frames": 80,
+      "native_fps": 24,
+      "video_path": "dataset2/RaceCar/RaceCar_24.mp4",
+      "annotation_path": "dataset2/RaceCar/annotation.txt"
+    },
+    "dataset2/RcCar3": {
+      "dataset": "dataset2",
+      "seq_name": "RcCar3",
+      "n_frames": 202,
+      "native_fps": 24,
+      "video_path": "dataset2/RcCar3/RcCar3_24.mp4",
+      "annotation_path": "dataset2/RcCar3/annotation.txt"
+    },
+    "dataset2/RcCar5": {
+      "dataset": "dataset2",
+      "seq_name": "RcCar5",
+      "n_frames": 330,
+      "native_fps": 24,
+      "video_path": "dataset2/RcCar5/RcCar5_24.mp4",
+      "annotation_path": "dataset2/RcCar5/annotation.txt"
+    },
+    "dataset2/RcCar7": {
+      "dataset": "dataset2",
+      "seq_name": "RcCar7",
+      "n_frames": 287,
+      "native_fps": 24,
+      "video_path": "dataset2/RcCar7/RcCar7_24.mp4",
+      "annotation_path": "dataset2/RcCar7/annotation.txt"
+    },
+    "dataset2/RcCar8": {
+      "dataset": "dataset2",
+      "seq_name": "RcCar8",
+      "n_frames": 211,
+      "native_fps": 24,
+      "video_path": "dataset2/RcCar8/RcCar8_24.mp4",
+      "annotation_path": "dataset2/RcCar8/annotation.txt"
+    },
+    "dataset2/SUP2": {
+      "dataset": "dataset2",
+      "seq_name": "SUP2",
+      "n_frames": 133,
+      "native_fps": 24,
+      "video_path": "dataset2/SUP2/SUP2_24.mp4",
+      "annotation_path": "dataset2/SUP2/annotation.txt"
+    },
+    "dataset2/SUP5": {
+      "dataset": "dataset2",
+      "seq_name": "SUP5",
+      "n_frames": 222,
+      "native_fps": 24,
+      "video_path": "dataset2/SUP5/SUP5_24.mp4",
+      "annotation_path": "dataset2/SUP5/annotation.txt"
+    },
+    "dataset2/Sheep1": {
+      "dataset": "dataset2",
+      "seq_name": "Sheep1",
+      "n_frames": 391,
+      "native_fps": 24,
+      "video_path": "dataset2/Sheep1/Sheep1_24.mp4",
+      "annotation_path": "dataset2/Sheep1/annotation.txt"
+    },
+    "dataset2/Sheep2": {
+      "dataset": "dataset2",
+      "seq_name": "Sheep2",
+      "n_frames": 251,
+      "native_fps": 30,
+      "video_path": "dataset2/Sheep2/Sheep2_30.mp4",
+      "annotation_path": "dataset2/Sheep2/annotation.txt"
+    },
+    "dataset2/SkateBoarding4": {
+      "dataset": "dataset2",
+      "seq_name": "SkateBoarding4",
+      "n_frames": 201,
+      "native_fps": 24,
+      "video_path": "dataset2/SkateBoarding4/SkateBoarding4_24.mp4",
+      "annotation_path": "dataset2/SkateBoarding4/annotation.txt"
+    },
+    "dataset2/Skiing1": {
+      "dataset": "dataset2",
+      "seq_name": "Skiing1",
+      "n_frames": 87,
+      "native_fps": 24,
+      "video_path": "dataset2/Skiing1/Skiing1_24.mp4",
+      "annotation_path": "dataset2/Skiing1/annotation.txt"
+    },
+    "dataset2/Skiing2": {
+      "dataset": "dataset2",
+      "seq_name": "Skiing2",
+      "n_frames": 178,
+      "native_fps": 30,
+      "video_path": "dataset2/Skiing2/Skiing2_30.mp4",
+      "annotation_path": "dataset2/Skiing2/annotation.txt"
+    },
+    "dataset2/SnowBoarding4": {
+      "dataset": "dataset2",
+      "seq_name": "SnowBoarding4",
+      "n_frames": 109,
+      "native_fps": 30,
+      "video_path": "dataset2/SnowBoarding4/SnowBoarding4_30.mp4",
+      "annotation_path": "dataset2/SnowBoarding4/annotation.txt"
+    },
+    "dataset2/SnowBoarding6": {
+      "dataset": "dataset2",
+      "seq_name": "SnowBoarding6",
+      "n_frames": 100,
+      "native_fps": 30,
+      "video_path": "dataset2/SnowBoarding6/SnowBoarding6_30.mp4",
+      "annotation_path": "dataset2/SnowBoarding6/annotation.txt"
+    },
+    "dataset2/Soccer2": {
+      "dataset": "dataset2",
+      "seq_name": "Soccer2",
+      "n_frames": 233,
+      "native_fps": 24,
+      "video_path": "dataset2/Soccer2/Soccer2_24.mp4",
+      "annotation_path": "dataset2/Soccer2/annotation.txt"
+    },
+    "dataset2/SpeedCar4": {
+      "dataset": "dataset2",
+      "seq_name": "SpeedCar4",
+      "n_frames": 164,
+      "native_fps": 30,
+      "video_path": "dataset2/SpeedCar4/SpeedCar4_30.mp4",
+      "annotation_path": "dataset2/SpeedCar4/annotation.txt"
+    },
+    "dataset2/StreetBasketball1": {
+      "dataset": "dataset2",
+      "seq_name": "StreetBasketball1",
+      "n_frames": 241,
+      "native_fps": 24,
+      "video_path": "dataset2/StreetBasketball1/StreetBasketball1_24.mp4",
+      "annotation_path": "dataset2/StreetBasketball1/annotation.txt"
+    },
+    "dataset2/StreetBasketball2": {
+      "dataset": "dataset2",
+      "seq_name": "StreetBasketball2",
+      "n_frames": 114,
+      "native_fps": 24,
+      "video_path": "dataset2/StreetBasketball2/StreetBasketball2_24.mp4",
+      "annotation_path": "dataset2/StreetBasketball2/annotation.txt"
+    },
+    "dataset2/StreetBasketball3": {
+      "dataset": "dataset2",
+      "seq_name": "StreetBasketball3",
+      "n_frames": 501,
+      "native_fps": 24,
+      "video_path": "dataset2/StreetBasketball3/StreetBasketball3_24.mp4",
+      "annotation_path": "dataset2/StreetBasketball3/annotation.txt"
+    },
+    "dataset2/Surfing04": {
+      "dataset": "dataset2",
+      "seq_name": "Surfing04",
+      "n_frames": 158,
+      "native_fps": 24,
+      "video_path": "dataset2/Surfing04/Surfing04_24.mp4",
+      "annotation_path": "dataset2/Surfing04/annotation.txt"
+    },
+    "dataset2/Surfing10": {
+      "dataset": "dataset2",
+      "seq_name": "Surfing10",
+      "n_frames": 165,
+      "native_fps": 24,
+      "video_path": "dataset2/Surfing10/Surfing10_24.mp4",
+      "annotation_path": "dataset2/Surfing10/annotation.txt"
+    },
+    "dataset2/Surfing12": {
+      "dataset": "dataset2",
+      "seq_name": "Surfing12",
+      "n_frames": 135,
+      "native_fps": 24,
+      "video_path": "dataset2/Surfing12/Surfing12_24.mp4",
+      "annotation_path": "dataset2/Surfing12/annotation.txt"
+    },
+    "dataset2/Vaulting": {
+      "dataset": "dataset2",
+      "seq_name": "Vaulting",
+      "n_frames": 171,
+      "native_fps": 24,
+      "video_path": "dataset2/Vaulting/Vaulting_24.mp4",
+      "annotation_path": "dataset2/Vaulting/annotation.txt"
+    },
+    "dataset2/Wakeboarding2": {
+      "dataset": "dataset2",
+      "seq_name": "Wakeboarding2",
+      "n_frames": 76,
+      "native_fps": 24,
+      "video_path": "dataset2/Wakeboarding2/Wakeboarding2_24.mp4",
+      "annotation_path": "dataset2/Wakeboarding2/annotation.txt"
+    },
+    "dataset2/Walking": {
+      "dataset": "dataset2",
+      "seq_name": "Walking",
+      "n_frames": 395,
+      "native_fps": 24,
+      "video_path": "dataset2/Walking/Walking_24.mp4",
+      "annotation_path": "dataset2/Walking/annotation.txt"
+    },
+    "dataset2/Yacht2": {
+      "dataset": "dataset2",
+      "seq_name": "Yacht2",
+      "n_frames": 239,
+      "native_fps": 24,
+      "video_path": "dataset2/Yacht2/Yacht2_24.mp4",
+      "annotation_path": "dataset2/Yacht2/annotation.txt"
+    },
+    "dataset2/Yacht4": {
+      "dataset": "dataset2",
+      "seq_name": "Yacht4",
+      "n_frames": 461,
+      "native_fps": 24,
+      "video_path": "dataset2/Yacht4/Yacht4_24.mp4",
+      "annotation_path": "dataset2/Yacht4/annotation.txt"
+    },
+    "dataset2/Zebra": {
+      "dataset": "dataset2",
+      "seq_name": "Zebra",
+      "n_frames": 177,
+      "native_fps": 24,
+      "video_path": "dataset2/Zebra/Zebra_24.mp4",
+      "annotation_path": "dataset2/Zebra/annotation.txt"
+    },
+    "dataset3/air_conditioning_box2": {
+      "dataset": "dataset3",
+      "seq_name": "air_conditioning_box2",
+      "n_frames": 1847,
+      "native_fps": 30,
+      "video_path": "dataset3/air_conditioning_box2/air_conditioning_box2_30.mp4",
+      "annotation_path": "dataset3/air_conditioning_box2/annotation.txt"
+    },
+    "dataset3/basketball_player1": {
+      "dataset": "dataset3",
+      "seq_name": "basketball_player1",
+      "n_frames": 1047,
+      "native_fps": 30,
+      "video_path": "dataset3/basketball_player1/basketball_player1_30.mp4",
+      "annotation_path": "dataset3/basketball_player1/annotation.txt"
+    },
+    "dataset3/basketball_player1_1-n": {
+      "dataset": "dataset3",
+      "seq_name": "basketball_player1_1-n",
+      "n_frames": 312,
+      "native_fps": 24,
+      "video_path": "dataset3/basketball_player1_1-n/basketball_player1_1-n_24.mp4",
+      "annotation_path": "dataset3/basketball_player1_1-n/annotation.txt"
+    },
+    "dataset3/basketball_player1_2-n": {
+      "dataset": "dataset3",
+      "seq_name": "basketball_player1_2-n",
+      "n_frames": 1567,
+      "native_fps": 30,
+      "video_path": "dataset3/basketball_player1_2-n/basketball_player1_2-n_30.mp4",
+      "annotation_path": "dataset3/basketball_player1_2-n/annotation.txt"
+    },
+    "dataset3/basketball_player2": {
+      "dataset": "dataset3",
+      "seq_name": "basketball_player2",
+      "n_frames": 1302,
+      "native_fps": 24,
+      "video_path": "dataset3/basketball_player2/basketball_player2_24.mp4",
+      "annotation_path": "dataset3/basketball_player2/annotation.txt"
+    },
+    "dataset3/basketball_player2-n": {
+      "dataset": "dataset3",
+      "seq_name": "basketball_player2-n",
+      "n_frames": 1225,
+      "native_fps": 24,
+      "video_path": "dataset3/basketball_player2-n/basketball_player2-n_24.mp4",
+      "annotation_path": "dataset3/basketball_player2-n/annotation.txt"
+    },
+    "dataset3/basketball_player3": {
+      "dataset": "dataset3",
+      "seq_name": "basketball_player3",
+      "n_frames": 1320,
+      "native_fps": 24,
+      "video_path": "dataset3/basketball_player3/basketball_player3_24.mp4",
+      "annotation_path": "dataset3/basketball_player3/annotation.txt"
+    },
+    "dataset3/basketball_player3-n": {
+      "dataset": "dataset3",
+      "seq_name": "basketball_player3-n",
+      "n_frames": 732,
+      "native_fps": 30,
+      "video_path": "dataset3/basketball_player3-n/basketball_player3-n_30.mp4",
+      "annotation_path": "dataset3/basketball_player3-n/annotation.txt"
+    },
+    "dataset3/basketball_player4-n": {
+      "dataset": "dataset3",
+      "seq_name": "basketball_player4-n",
+      "n_frames": 408,
+      "native_fps": 30,
+      "video_path": "dataset3/basketball_player4-n/basketball_player4-n_30.mp4",
+      "annotation_path": "dataset3/basketball_player4-n/annotation.txt"
+    },
+    "dataset3/bell_tower": {
+      "dataset": "dataset3",
+      "seq_name": "bell_tower",
+      "n_frames": 2061,
+      "native_fps": 30,
+      "video_path": "dataset3/bell_tower/bell_tower_30.mp4",
+      "annotation_path": "dataset3/bell_tower/annotation.txt"
+    },
+    "dataset3/bike2": {
+      "dataset": "dataset3",
+      "seq_name": "bike2",
+      "n_frames": 840,
+      "native_fps": 30,
+      "video_path": "dataset3/bike2/bike2_30.mp4",
+      "annotation_path": "dataset3/bike2/annotation.txt"
+    },
+    "dataset3/bike3": {
+      "dataset": "dataset3",
+      "seq_name": "bike3",
+      "n_frames": 234,
+      "native_fps": 30,
+      "video_path": "dataset3/bike3/bike3_30.mp4",
+      "annotation_path": "dataset3/bike3/annotation.txt"
+    },
+    "dataset3/bike4_1": {
+      "dataset": "dataset3",
+      "seq_name": "bike4_1",
+      "n_frames": 686,
+      "native_fps": 30,
+      "video_path": "dataset3/bike4_1/bike4_1_30.mp4",
+      "annotation_path": "dataset3/bike4_1/annotation.txt"
+    },
+    "dataset3/bike4_2": {
+      "dataset": "dataset3",
+      "seq_name": "bike4_2",
+      "n_frames": 1129,
+      "native_fps": 30,
+      "video_path": "dataset3/bike4_2/bike4_2_30.mp4",
+      "annotation_path": "dataset3/bike4_2/annotation.txt"
+    },
+    "dataset3/bike5": {
+      "dataset": "dataset3",
+      "seq_name": "bike5",
+      "n_frames": 1188,
+      "native_fps": 30,
+      "video_path": "dataset3/bike5/bike5_30.mp4",
+      "annotation_path": "dataset3/bike5/annotation.txt"
+    },
+    "dataset3/bike6": {
+      "dataset": "dataset3",
+      "seq_name": "bike6",
+      "n_frames": 1118,
+      "native_fps": 30,
+      "video_path": "dataset3/bike6/bike6_30.mp4",
+      "annotation_path": "dataset3/bike6/annotation.txt"
+    },
+    "dataset3/bike8": {
+      "dataset": "dataset3",
+      "seq_name": "bike8",
+      "n_frames": 327,
+      "native_fps": 30,
+      "video_path": "dataset3/bike8/bike8_30.mp4",
+      "annotation_path": "dataset3/bike8/annotation.txt"
+    },
+    "dataset3/bike9_2": {
+      "dataset": "dataset3",
+      "seq_name": "bike9_2",
+      "n_frames": 321,
+      "native_fps": 30,
+      "video_path": "dataset3/bike9_2/bike9_2_30.mp4",
+      "annotation_path": "dataset3/bike9_2/annotation.txt"
+    },
+    "dataset3/building1_1": {
+      "dataset": "dataset3",
+      "seq_name": "building1_1",
+      "n_frames": 1140,
+      "native_fps": 30,
+      "video_path": "dataset3/building1_1/building1_1_30.mp4",
+      "annotation_path": "dataset3/building1_1/annotation.txt"
+    },
+    "dataset3/building1_2": {
+      "dataset": "dataset3",
+      "seq_name": "building1_2",
+      "n_frames": 1036,
+      "native_fps": 30,
+      "video_path": "dataset3/building1_2/building1_2_30.mp4",
+      "annotation_path": "dataset3/building1_2/annotation.txt"
+    },
+    "dataset3/bus2-n": {
+      "dataset": "dataset3",
+      "seq_name": "bus2-n",
+      "n_frames": 716,
+      "native_fps": 30,
+      "video_path": "dataset3/bus2-n/bus2-n_30.mp4",
+      "annotation_path": "dataset3/bus2-n/annotation.txt"
+    },
+    "dataset3/car1": {
+      "dataset": "dataset3",
+      "seq_name": "car1",
+      "n_frames": 1509,
+      "native_fps": 30,
+      "video_path": "dataset3/car1/car1_30.mp4",
+      "annotation_path": "dataset3/car1/annotation.txt"
+    },
+    "dataset3/car1-n": {
+      "dataset": "dataset3",
+      "seq_name": "car1-n",
+      "n_frames": 1291,
+      "native_fps": 24,
+      "video_path": "dataset3/car1-n/car1-n_24.mp4",
+      "annotation_path": "dataset3/car1-n/annotation.txt"
+    },
+    "dataset3/car10": {
+      "dataset": "dataset3",
+      "seq_name": "car10",
+      "n_frames": 291,
+      "native_fps": 24,
+      "video_path": "dataset3/car10/car10_24.mp4",
+      "annotation_path": "dataset3/car10/annotation.txt"
+    },
+    "dataset3/car11": {
+      "dataset": "dataset3",
+      "seq_name": "car11",
+      "n_frames": 142,
+      "native_fps": 24,
+      "video_path": "dataset3/car11/car11_24.mp4",
+      "annotation_path": "dataset3/car11/annotation.txt"
+    },
+    "dataset3/car12": {
+      "dataset": "dataset3",
+      "seq_name": "car12",
+      "n_frames": 78,
+      "native_fps": 24,
+      "video_path": "dataset3/car12/car12_24.mp4",
+      "annotation_path": "dataset3/car12/annotation.txt"
+    },
+    "dataset3/car13": {
+      "dataset": "dataset3",
+      "seq_name": "car13",
+      "n_frames": 184,
+      "native_fps": 24,
+      "video_path": "dataset3/car13/car13_24.mp4",
+      "annotation_path": "dataset3/car13/annotation.txt"
+    },
+    "dataset3/car14": {
+      "dataset": "dataset3",
+      "seq_name": "car14",
+      "n_frames": 1690,
+      "native_fps": 24,
+      "video_path": "dataset3/car14/car14_24.mp4",
+      "annotation_path": "dataset3/car14/annotation.txt"
+    },
+    "dataset3/car15": {
+      "dataset": "dataset3",
+      "seq_name": "car15",
+      "n_frames": 159,
+      "native_fps": 24,
+      "video_path": "dataset3/car15/car15_24.mp4",
+      "annotation_path": "dataset3/car15/annotation.txt"
+    },
+    "dataset3/car16_1": {
+      "dataset": "dataset3",
+      "seq_name": "car16_1",
+      "n_frames": 100,
+      "native_fps": 24,
+      "video_path": "dataset3/car16_1/car16_1_24.mp4",
+      "annotation_path": "dataset3/car16_1/annotation.txt"
+    },
+    "dataset3/car16_2": {
+      "dataset": "dataset3",
+      "seq_name": "car16_2",
+      "n_frames": 254,
+      "native_fps": 30,
+      "video_path": "dataset3/car16_2/car16_2_30.mp4",
+      "annotation_path": "dataset3/car16_2/annotation.txt"
+    },
+    "dataset3/car17": {
+      "dataset": "dataset3",
+      "seq_name": "car17",
+      "n_frames": 221,
+      "native_fps": 30,
+      "video_path": "dataset3/car17/car17_30.mp4",
+      "annotation_path": "dataset3/car17/annotation.txt"
+    },
+    "dataset3/car18": {
+      "dataset": "dataset3",
+      "seq_name": "car18",
+      "n_frames": 171,
+      "native_fps": 30,
+      "video_path": "dataset3/car18/car18_30.mp4",
+      "annotation_path": "dataset3/car18/annotation.txt"
+    },
+    "dataset3/car2": {
+      "dataset": "dataset3",
+      "seq_name": "car2",
+      "n_frames": 486,
+      "native_fps": 30,
+      "video_path": "dataset3/car2/car2_30.mp4",
+      "annotation_path": "dataset3/car2/annotation.txt"
+    },
+    "dataset3/car2-n": {
+      "dataset": "dataset3",
+      "seq_name": "car2-n",
+      "n_frames": 489,
+      "native_fps": 30,
+      "video_path": "dataset3/car2-n/car2-n_30.mp4",
+      "annotation_path": "dataset3/car2-n/annotation.txt"
+    },
+    "dataset3/car3": {
+      "dataset": "dataset3",
+      "seq_name": "car3",
+      "n_frames": 2371,
+      "native_fps": 30,
+      "video_path": "dataset3/car3/car3_30.mp4",
+      "annotation_path": "dataset3/car3/annotation.txt"
+    },
+    "dataset3/car5": {
+      "dataset": "dataset3",
+      "seq_name": "car5",
+      "n_frames": 2625,
+      "native_fps": 30,
+      "video_path": "dataset3/car5/car5_30.mp4",
+      "annotation_path": "dataset3/car5/annotation.txt"
+    },
+    "dataset3/car6_1": {
+      "dataset": "dataset3",
+      "seq_name": "car6_1",
+      "n_frames": 1920,
+      "native_fps": 30,
+      "video_path": "dataset3/car6_1/car6_1_30.mp4",
+      "annotation_path": "dataset3/car6_1/annotation.txt"
+    },
+    "dataset3/car7_3": {
+      "dataset": "dataset3",
+      "seq_name": "car7_3",
+      "n_frames": 1596,
+      "native_fps": 24,
+      "video_path": "dataset3/car7_3/car7_3_24.mp4",
+      "annotation_path": "dataset3/car7_3/annotation.txt"
+    },
+    "dataset3/car8": {
+      "dataset": "dataset3",
+      "seq_name": "car8",
+      "n_frames": 183,
+      "native_fps": 24,
+      "video_path": "dataset3/car8/car8_24.mp4",
+      "annotation_path": "dataset3/car8/annotation.txt"
+    },
+    "dataset3/car9_1": {
+      "dataset": "dataset3",
+      "seq_name": "car9_1",
+      "n_frames": 1745,
+      "native_fps": 24,
+      "video_path": "dataset3/car9_1/car9_1_24.mp4",
+      "annotation_path": "dataset3/car9_1/annotation.txt"
+    },
+    "dataset3/car9_2": {
+      "dataset": "dataset3",
+      "seq_name": "car9_2",
+      "n_frames": 1885,
+      "native_fps": 24,
+      "video_path": "dataset3/car9_2/car9_2_24.mp4",
+      "annotation_path": "dataset3/car9_2/annotation.txt"
+    },
+    "dataset3/container": {
+      "dataset": "dataset3",
+      "seq_name": "container",
+      "n_frames": 474,
+      "native_fps": 24,
+      "video_path": "dataset3/container/container_24.mp4",
+      "annotation_path": "dataset3/container/annotation.txt"
+    },
+    "dataset3/courier1": {
+      "dataset": "dataset3",
+      "seq_name": "courier1",
+      "n_frames": 703,
+      "native_fps": 24,
+      "video_path": "dataset3/courier1/courier1_24.mp4",
+      "annotation_path": "dataset3/courier1/annotation.txt"
+    },
+    "dataset3/dark_car1-n": {
+      "dataset": "dataset3",
+      "seq_name": "dark_car1-n",
+      "n_frames": 577,
+      "native_fps": 30,
+      "video_path": "dataset3/dark_car1-n/dark_car1-n_30.mp4",
+      "annotation_path": "dataset3/dark_car1-n/annotation.txt"
+    },
+    "dataset3/dark_car2-n": {
+      "dataset": "dataset3",
+      "seq_name": "dark_car2-n",
+      "n_frames": 939,
+      "native_fps": 30,
+      "video_path": "dataset3/dark_car2-n/dark_car2-n_30.mp4",
+      "annotation_path": "dataset3/dark_car2-n/annotation.txt"
+    },
+    "dataset3/duck1_1": {
+      "dataset": "dataset3",
+      "seq_name": "duck1_1",
+      "n_frames": 2175,
+      "native_fps": 24,
+      "video_path": "dataset3/duck1_1/duck1_1_24.mp4",
+      "annotation_path": "dataset3/duck1_1/annotation.txt"
+    },
+    "dataset3/duck1_2": {
+      "dataset": "dataset3",
+      "seq_name": "duck1_2",
+      "n_frames": 1551,
+      "native_fps": 24,
+      "video_path": "dataset3/duck1_2/duck1_2_24.mp4",
+      "annotation_path": "dataset3/duck1_2/annotation.txt"
+    },
+    "dataset3/duck3": {
+      "dataset": "dataset3",
+      "seq_name": "duck3",
+      "n_frames": 901,
+      "native_fps": 24,
+      "video_path": "dataset3/duck3/duck3_24.mp4",
+      "annotation_path": "dataset3/duck3/annotation.txt"
+    },
+    "dataset3/football_player1_1": {
+      "dataset": "dataset3",
+      "seq_name": "football_player1_1",
+      "n_frames": 519,
+      "native_fps": 24,
+      "video_path": "dataset3/football_player1_1/football_player1_1_24.mp4",
+      "annotation_path": "dataset3/football_player1_1/annotation.txt"
+    },
+    "dataset3/football_player1_2": {
+      "dataset": "dataset3",
+      "seq_name": "football_player1_2",
+      "n_frames": 1202,
+      "native_fps": 24,
+      "video_path": "dataset3/football_player1_2/football_player1_2_24.mp4",
+      "annotation_path": "dataset3/football_player1_2/annotation.txt"
+    },
+    "dataset3/football_player2_1": {
+      "dataset": "dataset3",
+      "seq_name": "football_player2_1",
+      "n_frames": 546,
+      "native_fps": 24,
+      "video_path": "dataset3/football_player2_1/football_player2_1_24.mp4",
+      "annotation_path": "dataset3/football_player2_1/annotation.txt"
+    },
+    "dataset3/football_player2_2": {
+      "dataset": "dataset3",
+      "seq_name": "football_player2_2",
+      "n_frames": 1173,
+      "native_fps": 24,
+      "video_path": "dataset3/football_player2_2/football_player2_2_24.mp4",
+      "annotation_path": "dataset3/football_player2_2/annotation.txt"
+    },
+    "dataset3/group1": {
+      "dataset": "dataset3",
+      "seq_name": "group1",
+      "n_frames": 1321,
+      "native_fps": 24,
+      "video_path": "dataset3/group1/group1_24.mp4",
+      "annotation_path": "dataset3/group1/annotation.txt"
+    },
+    "dataset3/group2": {
+      "dataset": "dataset3",
+      "seq_name": "group2",
+      "n_frames": 1534,
+      "native_fps": 24,
+      "video_path": "dataset3/group2/group2_24.mp4",
+      "annotation_path": "dataset3/group2/annotation.txt"
+    },
+    "dataset3/group3_3": {
+      "dataset": "dataset3",
+      "seq_name": "group3_3",
+      "n_frames": 300,
+      "native_fps": 24,
+      "video_path": "dataset3/group3_3/group3_3_24.mp4",
+      "annotation_path": "dataset3/group3_3/annotation.txt"
+    },
+    "dataset3/group4": {
+      "dataset": "dataset3",
+      "seq_name": "group4",
+      "n_frames": 329,
+      "native_fps": 24,
+      "video_path": "dataset3/group4/group4_24.mp4",
+      "annotation_path": "dataset3/group4/annotation.txt"
+    },
+    "dataset3/group4_1": {
+      "dataset": "dataset3",
+      "seq_name": "group4_1",
+      "n_frames": 299,
+      "native_fps": 24,
+      "video_path": "dataset3/group4_1/group4_1_24.mp4",
+      "annotation_path": "dataset3/group4_1/annotation.txt"
+    },
+    "dataset3/group4_2": {
+      "dataset": "dataset3",
+      "seq_name": "group4_2",
+      "n_frames": 175,
+      "native_fps": 24,
+      "video_path": "dataset3/group4_2/group4_2_24.mp4",
+      "annotation_path": "dataset3/group4_2/annotation.txt"
+    },
+    "dataset3/hiker1": {
+      "dataset": "dataset3",
+      "seq_name": "hiker1",
+      "n_frames": 486,
+      "native_fps": 24,
+      "video_path": "dataset3/hiker1/hiker1_24.mp4",
+      "annotation_path": "dataset3/hiker1/annotation.txt"
+    },
+    "dataset3/hiker2": {
+      "dataset": "dataset3",
+      "seq_name": "hiker2",
+      "n_frames": 420,
+      "native_fps": 24,
+      "video_path": "dataset3/hiker2/hiker2_24.mp4",
+      "annotation_path": "dataset3/hiker2/annotation.txt"
+    },
+    "dataset3/human2": {
+      "dataset": "dataset3",
+      "seq_name": "human2",
+      "n_frames": 224,
+      "native_fps": 24,
+      "video_path": "dataset3/human2/human2_24.mp4",
+      "annotation_path": "dataset3/human2/annotation.txt"
+    },
+    "dataset3/human3": {
+      "dataset": "dataset3",
+      "seq_name": "human3",
+      "n_frames": 143,
+      "native_fps": 24,
+      "video_path": "dataset3/human3/human3_24.mp4",
+      "annotation_path": "dataset3/human3/annotation.txt"
+    },
+    "dataset3/island": {
+      "dataset": "dataset3",
+      "seq_name": "island",
+      "n_frames": 1969,
+      "native_fps": 30,
+      "video_path": "dataset3/island/island_30.mp4",
+      "annotation_path": "dataset3/island/annotation.txt"
+    },
+    "dataset3/jogging1": {
+      "dataset": "dataset3",
+      "seq_name": "jogging1",
+      "n_frames": 324,
+      "native_fps": 30,
+      "video_path": "dataset3/jogging1/jogging1_30.mp4",
+      "annotation_path": "dataset3/jogging1/annotation.txt"
+    },
+    "dataset3/motor1": {
+      "dataset": "dataset3",
+      "seq_name": "motor1",
+      "n_frames": 57,
+      "native_fps": 24,
+      "video_path": "dataset3/motor1/motor1_24.mp4",
+      "annotation_path": "dataset3/motor1/annotation.txt"
+    },
+    "dataset3/parterre1": {
+      "dataset": "dataset3",
+      "seq_name": "parterre1",
+      "n_frames": 2400,
+      "native_fps": 30,
+      "video_path": "dataset3/parterre1/parterre1_30.mp4",
+      "annotation_path": "dataset3/parterre1/annotation.txt"
+    },
+    "dataset3/pot_bunker": {
+      "dataset": "dataset3",
+      "seq_name": "pot_bunker",
+      "n_frames": 1383,
+      "native_fps": 30,
+      "video_path": "dataset3/pot_bunker/pot_bunker_30.mp4",
+      "annotation_path": "dataset3/pot_bunker/annotation.txt"
+    },
+    "dataset3/runner1": {
+      "dataset": "dataset3",
+      "seq_name": "runner1",
+      "n_frames": 333,
+      "native_fps": 24,
+      "video_path": "dataset3/runner1/runner1_24.mp4",
+      "annotation_path": "dataset3/runner1/annotation.txt"
+    },
+    "dataset3/runner2": {
+      "dataset": "dataset3",
+      "seq_name": "runner2",
+      "n_frames": 147,
+      "native_fps": 24,
+      "video_path": "dataset3/runner2/runner2_24.mp4",
+      "annotation_path": "dataset3/runner2/annotation.txt"
+    },
+    "dataset3/sand_truck-n": {
+      "dataset": "dataset3",
+      "seq_name": "sand_truck-n",
+      "n_frames": 829,
+      "native_fps": 30,
+      "video_path": "dataset3/sand_truck-n/sand_truck-n_30.mp4",
+      "annotation_path": "dataset3/sand_truck-n/annotation.txt"
+    },
+    "dataset3/swan": {
+      "dataset": "dataset3",
+      "seq_name": "swan",
+      "n_frames": 300,
+      "native_fps": 30,
+      "video_path": "dataset3/swan/swan_30.mp4",
+      "annotation_path": "dataset3/swan/annotation.txt"
+    },
+    "dataset3/tennis_player1_1": {
+      "dataset": "dataset3",
+      "seq_name": "tennis_player1_1",
+      "n_frames": 850,
+      "native_fps": 30,
+      "video_path": "dataset3/tennis_player1_1/tennis_player1_1_30.mp4",
+      "annotation_path": "dataset3/tennis_player1_1/annotation.txt"
+    },
+    "dataset3/tower_crane": {
+      "dataset": "dataset3",
+      "seq_name": "tower_crane",
+      "n_frames": 866,
+      "native_fps": 30,
+      "video_path": "dataset3/tower_crane/tower_crane_30.mp4",
+      "annotation_path": "dataset3/tower_crane/annotation.txt"
+    },
+    "dataset3/tree": {
+      "dataset": "dataset3",
+      "seq_name": "tree",
+      "n_frames": 520,
+      "native_fps": 30,
+      "video_path": "dataset3/tree/tree_30.mp4",
+      "annotation_path": "dataset3/tree/annotation.txt"
+    },
+    "dataset3/tricycle1_1": {
+      "dataset": "dataset3",
+      "seq_name": "tricycle1_1",
+      "n_frames": 1102,
+      "native_fps": 30,
+      "video_path": "dataset3/tricycle1_1/tricycle1_1_30.mp4",
+      "annotation_path": "dataset3/tricycle1_1/annotation.txt"
+    },
+    "dataset3/tricycle1_2": {
+      "dataset": "dataset3",
+      "seq_name": "tricycle1_2",
+      "n_frames": 1113,
+      "native_fps": 30,
+      "video_path": "dataset3/tricycle1_2/tricycle1_2_30.mp4",
+      "annotation_path": "dataset3/tricycle1_2/annotation.txt"
+    },
+    "dataset3/truck_night": {
+      "dataset": "dataset3",
+      "seq_name": "truck_night",
+      "n_frames": 1032,
+      "native_fps": 30,
+      "video_path": "dataset3/truck_night/truck_night_30.mp4",
+      "annotation_path": "dataset3/truck_night/annotation.txt"
+    },
+    "dataset3/uav1": {
+      "dataset": "dataset3",
+      "seq_name": "uav1",
+      "n_frames": 751,
+      "native_fps": 30,
+      "video_path": "dataset3/uav1/uav1_30.mp4",
+      "annotation_path": "dataset3/uav1/annotation.txt"
+    },
+    "dataset3/uav2": {
+      "dataset": "dataset3",
+      "seq_name": "uav2",
+      "n_frames": 1520,
+      "native_fps": 30,
+      "video_path": "dataset3/uav2/uav2_30.mp4",
+      "annotation_path": "dataset3/uav2/annotation.txt"
+    },
+    "dataset3/uav3_1": {
+      "dataset": "dataset3",
+      "seq_name": "uav3_1",
+      "n_frames": 634,
+      "native_fps": 30,
+      "video_path": "dataset3/uav3_1/uav3_1_30.mp4",
+      "annotation_path": "dataset3/uav3_1/annotation.txt"
+    },
+    "dataset3/uav3_2": {
+      "dataset": "dataset3",
+      "seq_name": "uav3_2",
+      "n_frames": 1208,
+      "native_fps": 30,
+      "video_path": "dataset3/uav3_2/uav3_2_30.mp4",
+      "annotation_path": "dataset3/uav3_2/annotation.txt"
+    },
+    "dataset3/uav4": {
+      "dataset": "dataset3",
+      "seq_name": "uav4",
+      "n_frames": 1533,
+      "native_fps": 30,
+      "video_path": "dataset3/uav4/uav4_30.mp4",
+      "annotation_path": "dataset3/uav4/annotation.txt"
+    },
+    "dataset3/uav5": {
+      "dataset": "dataset3",
+      "seq_name": "uav5",
+      "n_frames": 426,
+      "native_fps": 24,
+      "video_path": "dataset3/uav5/uav5_24.mp4",
+      "annotation_path": "dataset3/uav5/annotation.txt"
+    },
+    "dataset4/bike1": {
+      "dataset": "dataset4",
+      "seq_name": "bike1",
+      "n_frames": 3085,
+      "native_fps": 30,
+      "video_path": "dataset4/bike1/bike1_30.mp4",
+      "annotation_path": "dataset4/bike1/annotation.txt"
+    },
+    "dataset4/bird1": {
+      "dataset": "dataset4",
+      "seq_name": "bird1",
+      "n_frames": 2437,
+      "native_fps": 30,
+      "video_path": "dataset4/bird1/bird1_30.mp4",
+      "annotation_path": "dataset4/bird1/annotation.txt"
+    },
+    "dataset4/car1": {
+      "dataset": "dataset4",
+      "seq_name": "car1",
+      "n_frames": 2629,
+      "native_fps": 96,
+      "video_path": "dataset4/car1/car1_96.mp4",
+      "annotation_path": "dataset4/car1/annotation.txt"
+    },
+    "dataset4/car16": {
+      "dataset": "dataset4",
+      "seq_name": "car16",
+      "n_frames": 1993,
+      "native_fps": 96,
+      "video_path": "dataset4/car16/car16_96.mp4",
+      "annotation_path": "dataset4/car16/annotation.txt"
+    },
+    "dataset4/car3": {
+      "dataset": "dataset4",
+      "seq_name": "car3",
+      "n_frames": 1717,
+      "native_fps": 96,
+      "video_path": "dataset4/car3/car3_96.mp4",
+      "annotation_path": "dataset4/car3/annotation.txt"
+    },
+    "dataset4/car6": {
+      "dataset": "dataset4",
+      "seq_name": "car6",
+      "n_frames": 4861,
+      "native_fps": 96,
+      "video_path": "dataset4/car6/car6_96.mp4",
+      "annotation_path": "dataset4/car6/annotation.txt"
+    },
+    "dataset4/car8": {
+      "dataset": "dataset4",
+      "seq_name": "car8",
+      "n_frames": 2575,
+      "native_fps": 96,
+      "video_path": "dataset4/car8/car8_96.mp4",
+      "annotation_path": "dataset4/car8/annotation.txt"
+    },
+    "dataset4/car9": {
+      "dataset": "dataset4",
+      "seq_name": "car9",
+      "n_frames": 1879,
+      "native_fps": 96,
+      "video_path": "dataset4/car9/car9_96.mp4",
+      "annotation_path": "dataset4/car9/annotation.txt"
+    },
+    "dataset4/group1": {
+      "dataset": "dataset4",
+      "seq_name": "group1",
+      "n_frames": 4873,
+      "native_fps": 30,
+      "video_path": "dataset4/group1/group1_30.mp4",
+      "annotation_path": "dataset4/group1/annotation.txt"
+    },
+    "dataset4/group3": {
+      "dataset": "dataset4",
+      "seq_name": "group3",
+      "n_frames": 5527,
+      "native_fps": 96,
+      "video_path": "dataset4/group3/group3_96.mp4",
+      "annotation_path": "dataset4/group3/annotation.txt"
+    },
+    "dataset4/person14": {
+      "dataset": "dataset4",
+      "seq_name": "person14",
+      "n_frames": 2923,
+      "native_fps": 96,
+      "video_path": "dataset4/person14/person14_96.mp4",
+      "annotation_path": "dataset4/person14/annotation.txt"
+    },
+    "dataset4/person17": {
+      "dataset": "dataset4",
+      "seq_name": "person17",
+      "n_frames": 2347,
+      "native_fps": 96,
+      "video_path": "dataset4/person17/person17_96.mp4",
+      "annotation_path": "dataset4/person17/annotation.txt"
+    },
+    "dataset4/person2": {
+      "dataset": "dataset4",
+      "seq_name": "person2",
+      "n_frames": 2623,
+      "native_fps": 30,
+      "video_path": "dataset4/person2/person2_30.mp4",
+      "annotation_path": "dataset4/person2/annotation.txt"
+    },
+    "dataset4/person7": {
+      "dataset": "dataset4",
+      "seq_name": "person7",
+      "n_frames": 2065,
+      "native_fps": 30,
+      "video_path": "dataset4/person7/person7_30.mp4",
+      "annotation_path": "dataset4/person7/annotation.txt"
+    },
+    "dataset4/uav1": {
+      "dataset": "dataset4",
+      "seq_name": "uav1",
+      "n_frames": 3469,
+      "native_fps": 30,
+      "video_path": "dataset4/uav1/uav1_30.mp4",
+      "annotation_path": "dataset4/uav1/annotation.txt"
+    },
+    "dataset5/bike1": {
+      "dataset": "dataset5",
+      "seq_name": "bike1",
+      "n_frames": 3085,
+      "native_fps": 30,
+      "video_path": "dataset5/bike1/bike1_30.mp4",
+      "annotation_path": "dataset5/bike1/annotation.txt"
+    },
+    "dataset5/bike2": {
+      "dataset": "dataset5",
+      "seq_name": "bike2",
+      "n_frames": 553,
+      "native_fps": 30,
+      "video_path": "dataset5/bike2/bike2_30.mp4",
+      "annotation_path": "dataset5/bike2/annotation.txt"
+    },
+    "dataset5/bike3": {
+      "dataset": "dataset5",
+      "seq_name": "bike3",
+      "n_frames": 433,
+      "native_fps": 30,
+      "video_path": "dataset5/bike3/bike3_30.mp4",
+      "annotation_path": "dataset5/bike3/annotation.txt"
+    },
+    "dataset5/bird1_1": {
+      "dataset": "dataset5",
+      "seq_name": "bird1_1",
+      "n_frames": 253,
+      "native_fps": 30,
+      "video_path": "dataset5/bird1_1/bird1_1_30.mp4",
+      "annotation_path": "dataset5/bird1_1/annotation.txt"
+    },
+    "dataset5/bird1_2": {
+      "dataset": "dataset5",
+      "seq_name": "bird1_2",
+      "n_frames": 703,
+      "native_fps": 30,
+      "video_path": "dataset5/bird1_2/bird1_2_30.mp4",
+      "annotation_path": "dataset5/bird1_2/annotation.txt"
+    },
+    "dataset5/bird1_3": {
+      "dataset": "dataset5",
+      "seq_name": "bird1_3",
+      "n_frames": 865,
+      "native_fps": 30,
+      "video_path": "dataset5/bird1_3/bird1_3_30.mp4",
+      "annotation_path": "dataset5/bird1_3/annotation.txt"
+    },
+    "dataset5/boat1": {
+      "dataset": "dataset5",
+      "seq_name": "boat1",
+      "n_frames": 901,
+      "native_fps": 30,
+      "video_path": "dataset5/boat1/boat1_30.mp4",
+      "annotation_path": "dataset5/boat1/annotation.txt"
+    },
+    "dataset5/boat2": {
+      "dataset": "dataset5",
+      "seq_name": "boat2",
+      "n_frames": 799,
+      "native_fps": 30,
+      "video_path": "dataset5/boat2/boat2_30.mp4",
+      "annotation_path": "dataset5/boat2/annotation.txt"
+    },
+    "dataset5/boat4": {
+      "dataset": "dataset5",
+      "seq_name": "boat4",
+      "n_frames": 553,
+      "native_fps": 30,
+      "video_path": "dataset5/boat4/boat4_30.mp4",
+      "annotation_path": "dataset5/boat4/annotation.txt"
+    },
+    "dataset5/boat6": {
+      "dataset": "dataset5",
+      "seq_name": "boat6",
+      "n_frames": 805,
+      "native_fps": 30,
+      "video_path": "dataset5/boat6/boat6_30.mp4",
+      "annotation_path": "dataset5/boat6/annotation.txt"
+    },
+    "dataset5/boat7": {
+      "dataset": "dataset5",
+      "seq_name": "boat7",
+      "n_frames": 535,
+      "native_fps": 96,
+      "video_path": "dataset5/boat7/boat7_96.mp4",
+      "annotation_path": "dataset5/boat7/annotation.txt"
+    },
+    "dataset5/boat9": {
+      "dataset": "dataset5",
+      "seq_name": "boat9",
+      "n_frames": 1399,
+      "native_fps": 96,
+      "video_path": "dataset5/boat9/boat9_96.mp4",
+      "annotation_path": "dataset5/boat9/annotation.txt"
+    },
+    "dataset5/building2": {
+      "dataset": "dataset5",
+      "seq_name": "building2",
+      "n_frames": 577,
+      "native_fps": 30,
+      "video_path": "dataset5/building2/building2_30.mp4",
+      "annotation_path": "dataset5/building2/annotation.txt"
+    },
+    "dataset5/building3": {
+      "dataset": "dataset5",
+      "seq_name": "building3",
+      "n_frames": 829,
+      "native_fps": 30,
+      "video_path": "dataset5/building3/building3_30.mp4",
+      "annotation_path": "dataset5/building3/annotation.txt"
+    },
+    "dataset5/building5": {
+      "dataset": "dataset5",
+      "seq_name": "building5",
+      "n_frames": 481,
+      "native_fps": 96,
+      "video_path": "dataset5/building5/building5_96.mp4",
+      "annotation_path": "dataset5/building5/annotation.txt"
+    },
+    "dataset5/car10": {
+      "dataset": "dataset5",
+      "seq_name": "car10",
+      "n_frames": 1405,
+      "native_fps": 96,
+      "video_path": "dataset5/car10/car10_96.mp4",
+      "annotation_path": "dataset5/car10/annotation.txt"
+    },
+    "dataset5/car11": {
+      "dataset": "dataset5",
+      "seq_name": "car11",
+      "n_frames": 337,
+      "native_fps": 60,
+      "video_path": "dataset5/car11/car11_60.mp4",
+      "annotation_path": "dataset5/car11/annotation.txt"
+    },
+    "dataset5/car12": {
+      "dataset": "dataset5",
+      "seq_name": "car12",
+      "n_frames": 499,
+      "native_fps": 96,
+      "video_path": "dataset5/car12/car12_96.mp4",
+      "annotation_path": "dataset5/car12/annotation.txt"
+    },
+    "dataset5/car13": {
+      "dataset": "dataset5",
+      "seq_name": "car13",
+      "n_frames": 415,
+      "native_fps": 96,
+      "video_path": "dataset5/car13/car13_96.mp4",
+      "annotation_path": "dataset5/car13/annotation.txt"
+    },
+    "dataset5/car14": {
+      "dataset": "dataset5",
+      "seq_name": "car14",
+      "n_frames": 1327,
+      "native_fps": 96,
+      "video_path": "dataset5/car14/car14_96.mp4",
+      "annotation_path": "dataset5/car14/annotation.txt"
+    },
+    "dataset5/car15": {
+      "dataset": "dataset5",
+      "seq_name": "car15",
+      "n_frames": 469,
+      "native_fps": 30,
+      "video_path": "dataset5/car15/car15_30.mp4",
+      "annotation_path": "dataset5/car15/annotation.txt"
+    },
+    "dataset5/car16_1": {
+      "dataset": "dataset5",
+      "seq_name": "car16_1",
+      "n_frames": 415,
+      "native_fps": 96,
+      "video_path": "dataset5/car16_1/car16_1_96.mp4",
+      "annotation_path": "dataset5/car16_1/annotation.txt"
+    },
+    "dataset5/car16_2": {
+      "dataset": "dataset5",
+      "seq_name": "car16_2",
+      "n_frames": 1579,
+      "native_fps": 96,
+      "video_path": "dataset5/car16_2/car16_2_96.mp4",
+      "annotation_path": "dataset5/car16_2/annotation.txt"
+    },
+    "dataset5/car17": {
+      "dataset": "dataset5",
+      "seq_name": "car17",
+      "n_frames": 1057,
+      "native_fps": 96,
+      "video_path": "dataset5/car17/car17_96.mp4",
+      "annotation_path": "dataset5/car17/annotation.txt"
+    },
+    "dataset5/car18": {
+      "dataset": "dataset5",
+      "seq_name": "car18",
+      "n_frames": 1207,
+      "native_fps": 96,
+      "video_path": "dataset5/car18/car18_96.mp4",
+      "annotation_path": "dataset5/car18/annotation.txt"
+    },
+    "dataset5/car1_1": {
+      "dataset": "dataset5",
+      "seq_name": "car1_1",
+      "n_frames": 751,
+      "native_fps": 96,
+      "video_path": "dataset5/car1_1/car1_1_96.mp4",
+      "annotation_path": "dataset5/car1_1/annotation.txt"
+    },
+    "dataset5/car1_2": {
+      "dataset": "dataset5",
+      "seq_name": "car1_2",
+      "n_frames": 877,
+      "native_fps": 96,
+      "video_path": "dataset5/car1_2/car1_2_96.mp4",
+      "annotation_path": "dataset5/car1_2/annotation.txt"
+    },
+    "dataset5/car1_3": {
+      "dataset": "dataset5",
+      "seq_name": "car1_3",
+      "n_frames": 1003,
+      "native_fps": 96,
+      "video_path": "dataset5/car1_3/car1_3_96.mp4",
+      "annotation_path": "dataset5/car1_3/annotation.txt"
+    },
+    "dataset5/car1_s": {
+      "dataset": "dataset5",
+      "seq_name": "car1_s",
+      "n_frames": 1475,
+      "native_fps": 30,
+      "video_path": "dataset5/car1_s/car1_s_30.mp4",
+      "annotation_path": "dataset5/car1_s/annotation.txt"
+    },
+    "dataset5/car2": {
+      "dataset": "dataset5",
+      "seq_name": "car2",
+      "n_frames": 1321,
+      "native_fps": 96,
+      "video_path": "dataset5/car2/car2_96.mp4",
+      "annotation_path": "dataset5/car2/annotation.txt"
+    },
+    "dataset5/car2_s": {
+      "dataset": "dataset5",
+      "seq_name": "car2_s",
+      "n_frames": 320,
+      "native_fps": 30,
+      "video_path": "dataset5/car2_s/car2_s_30.mp4",
+      "annotation_path": "dataset5/car2_s/annotation.txt"
+    },
+    "dataset5/car3": {
+      "dataset": "dataset5",
+      "seq_name": "car3",
+      "n_frames": 1717,
+      "native_fps": 96,
+      "video_path": "dataset5/car3/car3_96.mp4",
+      "annotation_path": "dataset5/car3/annotation.txt"
+    },
+    "dataset5/car4_s": {
+      "dataset": "dataset5",
+      "seq_name": "car4_s",
+      "n_frames": 830,
+      "native_fps": 30,
+      "video_path": "dataset5/car4_s/car4_s_30.mp4",
+      "annotation_path": "dataset5/car4_s/annotation.txt"
+    },
+    "dataset5/car5": {
+      "dataset": "dataset5",
+      "seq_name": "car5",
+      "n_frames": 745,
+      "native_fps": 96,
+      "video_path": "dataset5/car5/car5_96.mp4",
+      "annotation_path": "dataset5/car5/annotation.txt"
+    },
+    "dataset5/car6_1": {
+      "dataset": "dataset5",
+      "seq_name": "car6_1",
+      "n_frames": 487,
+      "native_fps": 96,
+      "video_path": "dataset5/car6_1/car6_1_96.mp4",
+      "annotation_path": "dataset5/car6_1/annotation.txt"
+    },
+    "dataset5/car6_2": {
+      "dataset": "dataset5",
+      "seq_name": "car6_2",
+      "n_frames": 1321,
+      "native_fps": 96,
+      "video_path": "dataset5/car6_2/car6_2_96.mp4",
+      "annotation_path": "dataset5/car6_2/annotation.txt"
+    },
+    "dataset5/car6_3": {
+      "dataset": "dataset5",
+      "seq_name": "car6_3",
+      "n_frames": 1147,
+      "native_fps": 96,
+      "video_path": "dataset5/car6_3/car6_3_96.mp4",
+      "annotation_path": "dataset5/car6_3/annotation.txt"
+    },
+    "dataset5/car6_4": {
+      "dataset": "dataset5",
+      "seq_name": "car6_4",
+      "n_frames": 973,
+      "native_fps": 96,
+      "video_path": "dataset5/car6_4/car6_4_96.mp4",
+      "annotation_path": "dataset5/car6_4/annotation.txt"
+    },
+    "dataset5/car6_5": {
+      "dataset": "dataset5",
+      "seq_name": "car6_5",
+      "n_frames": 937,
+      "native_fps": 96,
+      "video_path": "dataset5/car6_5/car6_5_96.mp4",
+      "annotation_path": "dataset5/car6_5/annotation.txt"
+    },
+    "dataset5/car7": {
+      "dataset": "dataset5",
+      "seq_name": "car7",
+      "n_frames": 1033,
+      "native_fps": 96,
+      "video_path": "dataset5/car7/car7_96.mp4",
+      "annotation_path": "dataset5/car7/annotation.txt"
+    },
+    "dataset5/car8_1": {
+      "dataset": "dataset5",
+      "seq_name": "car8_1",
+      "n_frames": 1357,
+      "native_fps": 96,
+      "video_path": "dataset5/car8_1/car8_1_96.mp4",
+      "annotation_path": "dataset5/car8_1/annotation.txt"
+    },
+    "dataset5/car8_2": {
+      "dataset": "dataset5",
+      "seq_name": "car8_2",
+      "n_frames": 1219,
+      "native_fps": 96,
+      "video_path": "dataset5/car8_2/car8_2_96.mp4",
+      "annotation_path": "dataset5/car8_2/annotation.txt"
+    },
+    "dataset5/car9": {
+      "dataset": "dataset5",
+      "seq_name": "car9",
+      "n_frames": 1879,
+      "native_fps": 96,
+      "video_path": "dataset5/car9/car9_96.mp4",
+      "annotation_path": "dataset5/car9/annotation.txt"
+    },
+    "dataset5/group1_1": {
+      "dataset": "dataset5",
+      "seq_name": "group1_1",
+      "n_frames": 1333,
+      "native_fps": 30,
+      "video_path": "dataset5/group1_1/group1_1_30.mp4",
+      "annotation_path": "dataset5/group1_1/annotation.txt"
+    },
+    "dataset5/group1_2": {
+      "dataset": "dataset5",
+      "seq_name": "group1_2",
+      "n_frames": 1183,
+      "native_fps": 30,
+      "video_path": "dataset5/group1_2/group1_2_30.mp4",
+      "annotation_path": "dataset5/group1_2/annotation.txt"
+    },
+    "dataset5/group1_3": {
+      "dataset": "dataset5",
+      "seq_name": "group1_3",
+      "n_frames": 1411,
+      "native_fps": 30,
+      "video_path": "dataset5/group1_3/group1_3_30.mp4",
+      "annotation_path": "dataset5/group1_3/annotation.txt"
+    },
+    "dataset5/group1_4": {
+      "dataset": "dataset5",
+      "seq_name": "group1_4",
+      "n_frames": 949,
+      "native_fps": 30,
+      "video_path": "dataset5/group1_4/group1_4_30.mp4",
+      "annotation_path": "dataset5/group1_4/annotation.txt"
+    },
+    "dataset5/group3_1": {
+      "dataset": "dataset5",
+      "seq_name": "group3_1",
+      "n_frames": 1567,
+      "native_fps": 96,
+      "video_path": "dataset5/group3_1/group3_1_96.mp4",
+      "annotation_path": "dataset5/group3_1/annotation.txt"
+    },
+    "dataset5/group3_2": {
+      "dataset": "dataset5",
+      "seq_name": "group3_2",
+      "n_frames": 1261,
+      "native_fps": 96,
+      "video_path": "dataset5/group3_2/group3_2_96.mp4",
+      "annotation_path": "dataset5/group3_2/annotation.txt"
+    },
+    "dataset5/group3_3": {
+      "dataset": "dataset5",
+      "seq_name": "group3_3",
+      "n_frames": 1543,
+      "native_fps": 96,
+      "video_path": "dataset5/group3_3/group3_3_96.mp4",
+      "annotation_path": "dataset5/group3_3/annotation.txt"
+    },
+    "dataset5/group3_4": {
+      "dataset": "dataset5",
+      "seq_name": "group3_4",
+      "n_frames": 1159,
+      "native_fps": 96,
+      "video_path": "dataset5/group3_4/group3_4_96.mp4",
+      "annotation_path": "dataset5/group3_4/annotation.txt"
+    },
+    "dataset5/person10": {
+      "dataset": "dataset5",
+      "seq_name": "person10",
+      "n_frames": 1021,
+      "native_fps": 30,
+      "video_path": "dataset5/person10/person10_30.mp4",
+      "annotation_path": "dataset5/person10/annotation.txt"
+    },
+    "dataset5/person11": {
+      "dataset": "dataset5",
+      "seq_name": "person11",
+      "n_frames": 721,
+      "native_fps": 30,
+      "video_path": "dataset5/person11/person11_30.mp4",
+      "annotation_path": "dataset5/person11/annotation.txt"
+    },
+    "dataset5/person12_1": {
+      "dataset": "dataset5",
+      "seq_name": "person12_1",
+      "n_frames": 601,
+      "native_fps": 30,
+      "video_path": "dataset5/person12_1/person12_1_30.mp4",
+      "annotation_path": "dataset5/person12_1/annotation.txt"
+    },
+    "dataset5/person12_2": {
+      "dataset": "dataset5",
+      "seq_name": "person12_2",
+      "n_frames": 1021,
+      "native_fps": 30,
+      "video_path": "dataset5/person12_2/person12_2_30.mp4",
+      "annotation_path": "dataset5/person12_2/annotation.txt"
+    },
+    "dataset5/person13": {
+      "dataset": "dataset5",
+      "seq_name": "person13",
+      "n_frames": 883,
+      "native_fps": 30,
+      "video_path": "dataset5/person13/person13_30.mp4",
+      "annotation_path": "dataset5/person13/annotation.txt"
+    },
+    "dataset5/person14_1": {
+      "dataset": "dataset5",
+      "seq_name": "person14_1",
+      "n_frames": 847,
+      "native_fps": 96,
+      "video_path": "dataset5/person14_1/person14_1_96.mp4",
+      "annotation_path": "dataset5/person14_1/annotation.txt"
+    },
+    "dataset5/person14_2": {
+      "dataset": "dataset5",
+      "seq_name": "person14_2",
+      "n_frames": 967,
+      "native_fps": 96,
+      "video_path": "dataset5/person14_2/person14_2_96.mp4",
+      "annotation_path": "dataset5/person14_2/annotation.txt"
+    },
+    "dataset5/person14_3": {
+      "dataset": "dataset5",
+      "seq_name": "person14_3",
+      "n_frames": 1111,
+      "native_fps": 96,
+      "video_path": "dataset5/person14_3/person14_3_96.mp4",
+      "annotation_path": "dataset5/person14_3/annotation.txt"
+    },
+    "dataset5/person17_1": {
+      "dataset": "dataset5",
+      "seq_name": "person17_1",
+      "n_frames": 1501,
+      "native_fps": 96,
+      "video_path": "dataset5/person17_1/person17_1_96.mp4",
+      "annotation_path": "dataset5/person17_1/annotation.txt"
+    },
+    "dataset5/person17_2": {
+      "dataset": "dataset5",
+      "seq_name": "person17_2",
+      "n_frames": 847,
+      "native_fps": 96,
+      "video_path": "dataset5/person17_2/person17_2_96.mp4",
+      "annotation_path": "dataset5/person17_2/annotation.txt"
+    },
+    "dataset5/person18": {
+      "dataset": "dataset5",
+      "seq_name": "person18",
+      "n_frames": 1393,
+      "native_fps": 96,
+      "video_path": "dataset5/person18/person18_96.mp4",
+      "annotation_path": "dataset5/person18/annotation.txt"
+    },
+    "dataset5/person1_s": {
+      "dataset": "dataset5",
+      "seq_name": "person1_s",
+      "n_frames": 1600,
+      "native_fps": 30,
+      "video_path": "dataset5/person1_s/person1_s_30.mp4",
+      "annotation_path": "dataset5/person1_s/annotation.txt"
+    },
+    "dataset5/person21": {
+      "dataset": "dataset5",
+      "seq_name": "person21",
+      "n_frames": 487,
+      "native_fps": 30,
+      "video_path": "dataset5/person21/person21_30.mp4",
+      "annotation_path": "dataset5/person21/annotation.txt"
+    },
+    "dataset5/person22": {
+      "dataset": "dataset5",
+      "seq_name": "person22",
+      "n_frames": 199,
+      "native_fps": 30,
+      "video_path": "dataset5/person22/person22_30.mp4",
+      "annotation_path": "dataset5/person22/annotation.txt"
+    },
+    "dataset5/person23": {
+      "dataset": "dataset5",
+      "seq_name": "person23",
+      "n_frames": 397,
+      "native_fps": 30,
+      "video_path": "dataset5/person23/person23_30.mp4",
+      "annotation_path": "dataset5/person23/annotation.txt"
+    },
+    "dataset5/person2_1": {
+      "dataset": "dataset5",
+      "seq_name": "person2_1",
+      "n_frames": 1189,
+      "native_fps": 30,
+      "video_path": "dataset5/person2_1/person2_1_30.mp4",
+      "annotation_path": "dataset5/person2_1/annotation.txt"
+    },
+    "dataset5/person2_2": {
+      "dataset": "dataset5",
+      "seq_name": "person2_2",
+      "n_frames": 1435,
+      "native_fps": 30,
+      "video_path": "dataset5/person2_2/person2_2_30.mp4",
+      "annotation_path": "dataset5/person2_2/annotation.txt"
+    },
+    "dataset5/person2_s": {
+      "dataset": "dataset5",
+      "seq_name": "person2_s",
+      "n_frames": 250,
+      "native_fps": 30,
+      "video_path": "dataset5/person2_s/person2_s_30.mp4",
+      "annotation_path": "dataset5/person2_s/annotation.txt"
+    },
+    "dataset5/person3": {
+      "dataset": "dataset5",
+      "seq_name": "person3",
+      "n_frames": 643,
+      "native_fps": 30,
+      "video_path": "dataset5/person3/person3_30.mp4",
+      "annotation_path": "dataset5/person3/annotation.txt"
+    },
+    "dataset5/person7_1": {
+      "dataset": "dataset5",
+      "seq_name": "person7_1",
+      "n_frames": 1249,
+      "native_fps": 30,
+      "video_path": "dataset5/person7_1/person7_1_30.mp4",
+      "annotation_path": "dataset5/person7_1/annotation.txt"
+    },
+    "dataset5/person7_2": {
+      "dataset": "dataset5",
+      "seq_name": "person7_2",
+      "n_frames": 817,
+      "native_fps": 30,
+      "video_path": "dataset5/person7_2/person7_2_30.mp4",
+      "annotation_path": "dataset5/person7_2/annotation.txt"
+    },
+    "dataset5/person8_1": {
+      "dataset": "dataset5",
+      "seq_name": "person8_1",
+      "n_frames": 1075,
+      "native_fps": 30,
+      "video_path": "dataset5/person8_1/person8_1_30.mp4",
+      "annotation_path": "dataset5/person8_1/annotation.txt"
+    },
+    "dataset5/person8_2": {
+      "dataset": "dataset5",
+      "seq_name": "person8_2",
+      "n_frames": 451,
+      "native_fps": 30,
+      "video_path": "dataset5/person8_2/person8_2_30.mp4",
+      "annotation_path": "dataset5/person8_2/annotation.txt"
+    },
+    "dataset5/person9": {
+      "dataset": "dataset5",
+      "seq_name": "person9",
+      "n_frames": 661,
+      "native_fps": 30,
+      "video_path": "dataset5/person9/person9_30.mp4",
+      "annotation_path": "dataset5/person9/annotation.txt"
+    },
+    "dataset5/truck1": {
+      "dataset": "dataset5",
+      "seq_name": "truck1",
+      "n_frames": 463,
+      "native_fps": 30,
+      "video_path": "dataset5/truck1/truck1_30.mp4",
+      "annotation_path": "dataset5/truck1/annotation.txt"
+    },
+    "dataset5/truck2": {
+      "dataset": "dataset5",
+      "seq_name": "truck2",
+      "n_frames": 385,
+      "native_fps": 30,
+      "video_path": "dataset5/truck2/truck2_30.mp4",
+      "annotation_path": "dataset5/truck2/annotation.txt"
+    },
+    "dataset5/truck4_1": {
+      "dataset": "dataset5",
+      "seq_name": "truck4_1",
+      "n_frames": 577,
+      "native_fps": 30,
+      "video_path": "dataset5/truck4_1/truck4_1_30.mp4",
+      "annotation_path": "dataset5/truck4_1/annotation.txt"
+    },
+    "dataset5/truck4_2": {
+      "dataset": "dataset5",
+      "seq_name": "truck4_2",
+      "n_frames": 685,
+      "native_fps": 30,
+      "video_path": "dataset5/truck4_2/truck4_2_30.mp4",
+      "annotation_path": "dataset5/truck4_2/annotation.txt"
+    },
+    "dataset5/uav1_1": {
+      "dataset": "dataset5",
+      "seq_name": "uav1_1",
+      "n_frames": 1555,
+      "native_fps": 30,
+      "video_path": "dataset5/uav1_1/uav1_1_30.mp4",
+      "annotation_path": "dataset5/uav1_1/annotation.txt"
+    },
+    "dataset5/uav1_2": {
+      "dataset": "dataset5",
+      "seq_name": "uav1_2",
+      "n_frames": 823,
+      "native_fps": 30,
+      "video_path": "dataset5/uav1_2/uav1_2_30.mp4",
+      "annotation_path": "dataset5/uav1_2/annotation.txt"
+    },
+    "dataset5/uav1_3": {
+      "dataset": "dataset5",
+      "seq_name": "uav1_3",
+      "n_frames": 997,
+      "native_fps": 30,
+      "video_path": "dataset5/uav1_3/uav1_3_30.mp4",
+      "annotation_path": "dataset5/uav1_3/annotation.txt"
+    },
+    "dataset5/uav3": {
+      "dataset": "dataset5",
+      "seq_name": "uav3",
+      "n_frames": 265,
+      "native_fps": 30,
+      "video_path": "dataset5/uav3/uav3_30.mp4",
+      "annotation_path": "dataset5/uav3/annotation.txt"
+    },
+    "dataset5/uav4": {
+      "dataset": "dataset5",
+      "seq_name": "uav4",
+      "n_frames": 157,
+      "native_fps": 30,
+      "video_path": "dataset5/uav4/uav4_30.mp4",
+      "annotation_path": "dataset5/uav4/annotation.txt"
+    },
+    "dataset5/uav5": {
+      "dataset": "dataset5",
+      "seq_name": "uav5",
+      "n_frames": 139,
+      "native_fps": 30,
+      "video_path": "dataset5/uav5/uav5_30.mp4",
+      "annotation_path": "dataset5/uav5/annotation.txt"
+    },
+    "dataset5/uav6": {
+      "dataset": "dataset5",
+      "seq_name": "uav6",
+      "n_frames": 109,
+      "native_fps": 30,
+      "video_path": "dataset5/uav6/uav6_30.mp4",
+      "annotation_path": "dataset5/uav6/annotation.txt"
+    },
+    "dataset5/uav8": {
+      "dataset": "dataset5",
+      "seq_name": "uav8",
+      "n_frames": 301,
+      "native_fps": 30,
+      "video_path": "dataset5/uav8/uav8_30.mp4",
+      "annotation_path": "dataset5/uav8/annotation.txt"
+    },
+    "dataset5/wakeboard1": {
+      "dataset": "dataset5",
+      "seq_name": "wakeboard1",
+      "n_frames": 421,
+      "native_fps": 96,
+      "video_path": "dataset5/wakeboard1/wakeboard1_96.mp4",
+      "annotation_path": "dataset5/wakeboard1/annotation.txt"
+    },
+    "dataset5/wakeboard2": {
+      "dataset": "dataset5",
+      "seq_name": "wakeboard2",
+      "n_frames": 733,
+      "native_fps": 96,
+      "video_path": "dataset5/wakeboard2/wakeboard2_96.mp4",
+      "annotation_path": "dataset5/wakeboard2/annotation.txt"
+    },
+    "dataset5/wakeboard3": {
+      "dataset": "dataset5",
+      "seq_name": "wakeboard3",
+      "n_frames": 823,
+      "native_fps": 96,
+      "video_path": "dataset5/wakeboard3/wakeboard3_96.mp4",
+      "annotation_path": "dataset5/wakeboard3/annotation.txt"
+    },
+    "dataset5/wakeboard4": {
+      "dataset": "dataset5",
+      "seq_name": "wakeboard4",
+      "n_frames": 697,
+      "native_fps": 96,
+      "video_path": "dataset5/wakeboard4/wakeboard4_96.mp4",
+      "annotation_path": "dataset5/wakeboard4/annotation.txt"
+    },
+    "dataset5/wakeboard5": {
+      "dataset": "dataset5",
+      "seq_name": "wakeboard5",
+      "n_frames": 1675,
+      "native_fps": 96,
+      "video_path": "dataset5/wakeboard5/wakeboard5_96.mp4",
+      "annotation_path": "dataset5/wakeboard5/annotation.txt"
+    },
+    "dataset5/wakeboard8": {
+      "dataset": "dataset5",
+      "seq_name": "wakeboard8",
+      "n_frames": 1543,
+      "native_fps": 96,
+      "video_path": "dataset5/wakeboard8/wakeboard8_96.mp4",
+      "annotation_path": "dataset5/wakeboard8/annotation.txt"
+    },
+    "dataset5/wakeboard9": {
+      "dataset": "dataset5",
+      "seq_name": "wakeboard9",
+      "n_frames": 355,
+      "native_fps": 96,
+      "video_path": "dataset5/wakeboard9/wakeboard9_96.mp4",
+      "annotation_path": "dataset5/wakeboard9/annotation.txt"
+    }
+  },
+  "public_lb": {
+    "dataset1/Car_video": {
+      "dataset": "dataset1",
+      "seq_name": "Car_video",
+      "n_frames": 585,
+      "native_fps": 60,
+      "video_path": "dataset1/Car_video/Car_video.mp4",
+      "annotation_path": "dataset1/Car_video/annotation.txt"
+    },
+    "dataset1/Car_video_4": {
+      "dataset": "dataset1",
+      "seq_name": "Car_video_4",
+      "n_frames": 415,
+      "native_fps": 30,
+      "video_path": "dataset1/Car_video_4/Car_video_4.mp4",
+      "annotation_path": "dataset1/Car_video_4/annotation.txt"
+    },
+    "dataset1/basketball": {
+      "dataset": "dataset1",
+      "seq_name": "basketball",
+      "n_frames": 324,
+      "native_fps": 60,
+      "video_path": "dataset1/basketball/basketball.mp4",
+      "annotation_path": "dataset1/basketball/annotation.txt"
+    },
+    "dataset1/basketball_2": {
+      "dataset": "dataset1",
+      "seq_name": "basketball_2",
+      "n_frames": 184,
+      "native_fps": 30,
+      "video_path": "dataset1/basketball_2/basketball_2.mp4",
+      "annotation_path": "dataset1/basketball_2/annotation.txt"
+    },
+    "dataset1/basketball_3": {
+      "dataset": "dataset1",
+      "seq_name": "basketball_3",
+      "n_frames": 181,
+      "native_fps": 30,
+      "video_path": "dataset1/basketball_3/basketball_3.mp4",
+      "annotation_path": "dataset1/basketball_3/annotation.txt"
+    },
+    "dataset1/cows": {
+      "dataset": "dataset1",
+      "seq_name": "cows",
+      "n_frames": 489,
+      "native_fps": 30,
+      "video_path": "dataset1/cows/cows.mp4",
+      "annotation_path": "dataset1/cows/annotation.txt"
+    },
+    "dataset1/person_3": {
+      "dataset": "dataset1",
+      "seq_name": "person_3",
+      "n_frames": 930,
+      "native_fps": 30,
+      "video_path": "dataset1/person_3/person_3.mp4",
+      "annotation_path": "dataset1/person_3/annotation.txt"
+    },
+    "dataset1/sheeps": {
+      "dataset": "dataset1",
+      "seq_name": "sheeps",
+      "n_frames": 283,
+      "native_fps": 24,
+      "video_path": "dataset1/sheeps/sheeps.mp4",
+      "annotation_path": "dataset1/sheeps/annotation.txt"
+    },
+    "dataset1/sheeps_2": {
+      "dataset": "dataset1",
+      "seq_name": "sheeps_2",
+      "n_frames": 240,
+      "native_fps": 25,
+      "video_path": "dataset1/sheeps_2/sheeps_2.mp4",
+      "annotation_path": "dataset1/sheeps_2/annotation.txt"
+    },
+    "dataset1/surfer_1": {
+      "dataset": "dataset1",
+      "seq_name": "surfer_1",
+      "n_frames": 743,
+      "native_fps": 24,
+      "video_path": "dataset1/surfer_1/surfer_1.mp4",
+      "annotation_path": "dataset1/surfer_1/annotation.txt"
+    },
+    "dataset2/Animal3": {
+      "dataset": "dataset2",
+      "seq_name": "Animal3",
+      "n_frames": 309,
+      "native_fps": 30,
+      "video_path": "dataset2/Animal3/Animal3_30.mp4",
+      "annotation_path": "dataset2/Animal3/annotation.txt"
+    },
+    "dataset2/Car4": {
+      "dataset": "dataset2",
+      "seq_name": "Car4",
+      "n_frames": 217,
+      "native_fps": 24,
+      "video_path": "dataset2/Car4/Car4_24.mp4",
+      "annotation_path": "dataset2/Car4/annotation.txt"
+    },
+    "dataset2/Car5": {
+      "dataset": "dataset2",
+      "seq_name": "Car5",
+      "n_frames": 84,
+      "native_fps": 30,
+      "video_path": "dataset2/Car5/Car5_30.mp4",
+      "annotation_path": "dataset2/Car5/annotation.txt"
+    },
+    "dataset2/Horse1": {
+      "dataset": "dataset2",
+      "seq_name": "Horse1",
+      "n_frames": 149,
+      "native_fps": 24,
+      "video_path": "dataset2/Horse1/Horse1_24.mp4",
+      "annotation_path": "dataset2/Horse1/annotation.txt"
+    },
+    "dataset2/Motor1": {
+      "dataset": "dataset2",
+      "seq_name": "Motor1",
+      "n_frames": 78,
+      "native_fps": 24,
+      "video_path": "dataset2/Motor1/Motor1_24.mp4",
+      "annotation_path": "dataset2/Motor1/annotation.txt"
+    },
+    "dataset2/MountainBike5": {
+      "dataset": "dataset2",
+      "seq_name": "MountainBike5",
+      "n_frames": 107,
+      "native_fps": 30,
+      "video_path": "dataset2/MountainBike5/MountainBike5_30.mp4",
+      "annotation_path": "dataset2/MountainBike5/annotation.txt"
+    },
+    "dataset2/RaceCar1": {
+      "dataset": "dataset2",
+      "seq_name": "RaceCar1",
+      "n_frames": 249,
+      "native_fps": 24,
+      "video_path": "dataset2/RaceCar1/RaceCar1_24.mp4",
+      "annotation_path": "dataset2/RaceCar1/annotation.txt"
+    },
+    "dataset2/RcCar4": {
+      "dataset": "dataset2",
+      "seq_name": "RcCar4",
+      "n_frames": 699,
+      "native_fps": 24,
+      "video_path": "dataset2/RcCar4/RcCar4_24.mp4",
+      "annotation_path": "dataset2/RcCar4/annotation.txt"
+    },
+    "dataset2/RcCar6": {
+      "dataset": "dataset2",
+      "seq_name": "RcCar6",
+      "n_frames": 210,
+      "native_fps": 24,
+      "video_path": "dataset2/RcCar6/RcCar6_24.mp4",
+      "annotation_path": "dataset2/RcCar6/annotation.txt"
+    },
+    "dataset2/RcCar9": {
+      "dataset": "dataset2",
+      "seq_name": "RcCar9",
+      "n_frames": 208,
+      "native_fps": 24,
+      "video_path": "dataset2/RcCar9/RcCar9_24.mp4",
+      "annotation_path": "dataset2/RcCar9/annotation.txt"
+    },
+    "dataset2/SUP4": {
+      "dataset": "dataset2",
+      "seq_name": "SUP4",
+      "n_frames": 295,
+      "native_fps": 24,
+      "video_path": "dataset2/SUP4/SUP4_24.mp4",
+      "annotation_path": "dataset2/SUP4/annotation.txt"
+    },
+    "dataset2/SnowBoarding2": {
+      "dataset": "dataset2",
+      "seq_name": "SnowBoarding2",
+      "n_frames": 117,
+      "native_fps": 24,
+      "video_path": "dataset2/SnowBoarding2/SnowBoarding2_24.mp4",
+      "annotation_path": "dataset2/SnowBoarding2/annotation.txt"
+    },
+    "dataset2/Soccer1": {
+      "dataset": "dataset2",
+      "seq_name": "Soccer1",
+      "n_frames": 613,
+      "native_fps": 24,
+      "video_path": "dataset2/Soccer1/Soccer1_24.mp4",
+      "annotation_path": "dataset2/Soccer1/annotation.txt"
+    },
+    "dataset2/SpeedCar2": {
+      "dataset": "dataset2",
+      "seq_name": "SpeedCar2",
+      "n_frames": 308,
+      "native_fps": 30,
+      "video_path": "dataset2/SpeedCar2/SpeedCar2_30.mp4",
+      "annotation_path": "dataset2/SpeedCar2/annotation.txt"
+    },
+    "dataset2/Surfing03": {
+      "dataset": "dataset2",
+      "seq_name": "Surfing03",
+      "n_frames": 117,
+      "native_fps": 24,
+      "video_path": "dataset2/Surfing03/Surfing03_24.mp4",
+      "annotation_path": "dataset2/Surfing03/annotation.txt"
+    },
+    "dataset2/Surfing06": {
+      "dataset": "dataset2",
+      "seq_name": "Surfing06",
+      "n_frames": 106,
+      "native_fps": 24,
+      "video_path": "dataset2/Surfing06/Surfing06_24.mp4",
+      "annotation_path": "dataset2/Surfing06/annotation.txt"
+    },
+    "dataset2/Wakeboarding1": {
+      "dataset": "dataset2",
+      "seq_name": "Wakeboarding1",
+      "n_frames": 77,
+      "native_fps": 24,
+      "video_path": "dataset2/Wakeboarding1/Wakeboarding1_24.mp4",
+      "annotation_path": "dataset2/Wakeboarding1/annotation.txt"
+    },
+    "dataset3/air_conditioning_box1": {
+      "dataset": "dataset3",
+      "seq_name": "air_conditioning_box1",
+      "n_frames": 437,
+      "native_fps": 30,
+      "video_path": "dataset3/air_conditioning_box1/air_conditioning_box1_30.mp4",
+      "annotation_path": "dataset3/air_conditioning_box1/annotation.txt"
+    },
+    "dataset3/bike1": {
+      "dataset": "dataset3",
+      "seq_name": "bike1",
+      "n_frames": 180,
+      "native_fps": 30,
+      "video_path": "dataset3/bike1/bike1_30.mp4",
+      "annotation_path": "dataset3/bike1/annotation.txt"
+    },
+    "dataset3/bike7_1": {
+      "dataset": "dataset3",
+      "seq_name": "bike7_1",
+      "n_frames": 301,
+      "native_fps": 30,
+      "video_path": "dataset3/bike7_1/bike7_1_30.mp4",
+      "annotation_path": "dataset3/bike7_1/annotation.txt"
+    },
+    "dataset3/bike7_2": {
+      "dataset": "dataset3",
+      "seq_name": "bike7_2",
+      "n_frames": 338,
+      "native_fps": 30,
+      "video_path": "dataset3/bike7_2/bike7_2_30.mp4",
+      "annotation_path": "dataset3/bike7_2/annotation.txt"
+    },
+    "dataset3/bike9_1": {
+      "dataset": "dataset3",
+      "seq_name": "bike9_1",
+      "n_frames": 401,
+      "native_fps": 30,
+      "video_path": "dataset3/bike9_1/bike9_1_30.mp4",
+      "annotation_path": "dataset3/bike9_1/annotation.txt"
+    },
+    "dataset3/bus1-n": {
+      "dataset": "dataset3",
+      "seq_name": "bus1-n",
+      "n_frames": 1092,
+      "native_fps": 30,
+      "video_path": "dataset3/bus1-n/bus1-n_30.mp4",
+      "annotation_path": "dataset3/bus1-n/annotation.txt"
+    },
+    "dataset3/car16_3": {
+      "dataset": "dataset3",
+      "seq_name": "car16_3",
+      "n_frames": 168,
+      "native_fps": 24,
+      "video_path": "dataset3/car16_3/car16_3_24.mp4",
+      "annotation_path": "dataset3/car16_3/annotation.txt"
+    },
+    "dataset3/car4": {
+      "dataset": "dataset3",
+      "seq_name": "car4",
+      "n_frames": 1302,
+      "native_fps": 30,
+      "video_path": "dataset3/car4/car4_30.mp4",
+      "annotation_path": "dataset3/car4/annotation.txt"
+    },
+    "dataset3/car6_2": {
+      "dataset": "dataset3",
+      "seq_name": "car6_2",
+      "n_frames": 1123,
+      "native_fps": 30,
+      "video_path": "dataset3/car6_2/car6_2_30.mp4",
+      "annotation_path": "dataset3/car6_2/annotation.txt"
+    },
+    "dataset3/car7_1": {
+      "dataset": "dataset3",
+      "seq_name": "car7_1",
+      "n_frames": 973,
+      "native_fps": 30,
+      "video_path": "dataset3/car7_1/car7_1_30.mp4",
+      "annotation_path": "dataset3/car7_1/annotation.txt"
+    },
+    "dataset3/car7_2": {
+      "dataset": "dataset3",
+      "seq_name": "car7_2",
+      "n_frames": 1968,
+      "native_fps": 24,
+      "video_path": "dataset3/car7_2/car7_2_24.mp4",
+      "annotation_path": "dataset3/car7_2/annotation.txt"
+    },
+    "dataset3/couple": {
+      "dataset": "dataset3",
+      "seq_name": "couple",
+      "n_frames": 1826,
+      "native_fps": 24,
+      "video_path": "dataset3/couple/couple_24.mp4",
+      "annotation_path": "dataset3/couple/annotation.txt"
+    },
+    "dataset3/courier2": {
+      "dataset": "dataset3",
+      "seq_name": "courier2",
+      "n_frames": 1705,
+      "native_fps": 30,
+      "video_path": "dataset3/courier2/courier2_30.mp4",
+      "annotation_path": "dataset3/courier2/annotation.txt"
+    },
+    "dataset3/duck2": {
+      "dataset": "dataset3",
+      "seq_name": "duck2",
+      "n_frames": 1131,
+      "native_fps": 24,
+      "video_path": "dataset3/duck2/duck2_24.mp4",
+      "annotation_path": "dataset3/duck2/annotation.txt"
+    },
+    "dataset3/electric_box": {
+      "dataset": "dataset3",
+      "seq_name": "electric_box",
+      "n_frames": 1164,
+      "native_fps": 24,
+      "video_path": "dataset3/electric_box/electric_box_24.mp4",
+      "annotation_path": "dataset3/electric_box/annotation.txt"
+    },
+    "dataset3/excavator": {
+      "dataset": "dataset3",
+      "seq_name": "excavator",
+      "n_frames": 630,
+      "native_fps": 30,
+      "video_path": "dataset3/excavator/excavator_30.mp4",
+      "annotation_path": "dataset3/excavator/annotation.txt"
+    },
+    "dataset3/football_player1_3": {
+      "dataset": "dataset3",
+      "seq_name": "football_player1_3",
+      "n_frames": 1003,
+      "native_fps": 24,
+      "video_path": "dataset3/football_player1_3/football_player1_3_24.mp4",
+      "annotation_path": "dataset3/football_player1_3/annotation.txt"
+    },
+    "dataset3/group3_1": {
+      "dataset": "dataset3",
+      "seq_name": "group3_1",
+      "n_frames": 163,
+      "native_fps": 24,
+      "video_path": "dataset3/group3_1/group3_1_24.mp4",
+      "annotation_path": "dataset3/group3_1/annotation.txt"
+    },
+    "dataset3/group3_2": {
+      "dataset": "dataset3",
+      "seq_name": "group3_2",
+      "n_frames": 250,
+      "native_fps": 24,
+      "video_path": "dataset3/group3_2/group3_2_24.mp4",
+      "annotation_path": "dataset3/group3_2/annotation.txt"
+    },
+    "dataset3/human": {
+      "dataset": "dataset3",
+      "seq_name": "human",
+      "n_frames": 1605,
+      "native_fps": 24,
+      "video_path": "dataset3/human/human_24.mp4",
+      "annotation_path": "dataset3/human/annotation.txt"
+    },
+    "dataset3/human1": {
+      "dataset": "dataset3",
+      "seq_name": "human1",
+      "n_frames": 90,
+      "native_fps": 24,
+      "video_path": "dataset3/human1/human1_24.mp4",
+      "annotation_path": "dataset3/human1/annotation.txt"
+    },
+    "dataset3/human4": {
+      "dataset": "dataset3",
+      "seq_name": "human4",
+      "n_frames": 20,
+      "native_fps": 24,
+      "video_path": "dataset3/human4/human4_24.mp4",
+      "annotation_path": "dataset3/human4/annotation.txt"
+    },
+    "dataset3/human5": {
+      "dataset": "dataset3",
+      "seq_name": "human5",
+      "n_frames": 208,
+      "native_fps": 24,
+      "video_path": "dataset3/human5/human5_24.mp4",
+      "annotation_path": "dataset3/human5/annotation.txt"
+    },
+    "dataset3/jogging2": {
+      "dataset": "dataset3",
+      "seq_name": "jogging2",
+      "n_frames": 1717,
+      "native_fps": 30,
+      "video_path": "dataset3/jogging2/jogging2_30.mp4",
+      "annotation_path": "dataset3/jogging2/annotation.txt"
+    },
+    "dataset3/motor2": {
+      "dataset": "dataset3",
+      "seq_name": "motor2",
+      "n_frames": 53,
+      "native_fps": 24,
+      "video_path": "dataset3/motor2/motor2_24.mp4",
+      "annotation_path": "dataset3/motor2/annotation.txt"
+    },
+    "dataset3/parterre2": {
+      "dataset": "dataset3",
+      "seq_name": "parterre2",
+      "n_frames": 1705,
+      "native_fps": 30,
+      "video_path": "dataset3/parterre2/parterre2_30.mp4",
+      "annotation_path": "dataset3/parterre2/annotation.txt"
+    },
+    "dataset3/tennis_player1_2": {
+      "dataset": "dataset3",
+      "seq_name": "tennis_player1_2",
+      "n_frames": 1655,
+      "native_fps": 30,
+      "video_path": "dataset3/tennis_player1_2/tennis_player1_2_30.mp4",
+      "annotation_path": "dataset3/tennis_player1_2/annotation.txt"
+    },
+    "dataset3/truck": {
+      "dataset": "dataset3",
+      "seq_name": "truck",
+      "n_frames": 1871,
+      "native_fps": 30,
+      "video_path": "dataset3/truck/truck_30.mp4",
+      "annotation_path": "dataset3/truck/annotation.txt"
+    },
+    "dataset4/group2": {
+      "dataset": "dataset4",
+      "seq_name": "group2",
+      "n_frames": 2683,
+      "native_fps": 96,
+      "video_path": "dataset4/group2/group2_96.mp4",
+      "annotation_path": "dataset4/group2/annotation.txt"
+    },
+    "dataset4/person19": {
+      "dataset": "dataset4",
+      "seq_name": "person19",
+      "n_frames": 4357,
+      "native_fps": 96,
+      "video_path": "dataset4/person19/person19_96.mp4",
+      "annotation_path": "dataset4/person19/annotation.txt"
+    },
+    "dataset4/person20": {
+      "dataset": "dataset4",
+      "seq_name": "person20",
+      "n_frames": 1783,
+      "native_fps": 96,
+      "video_path": "dataset4/person20/person20_96.mp4",
+      "annotation_path": "dataset4/person20/annotation.txt"
+    },
+    "dataset4/person4": {
+      "dataset": "dataset4",
+      "seq_name": "person4",
+      "n_frames": 2743,
+      "native_fps": 30,
+      "video_path": "dataset4/person4/person4_30.mp4",
+      "annotation_path": "dataset4/person4/annotation.txt"
+    },
+    "dataset4/person5": {
+      "dataset": "dataset4",
+      "seq_name": "person5",
+      "n_frames": 2101,
+      "native_fps": 30,
+      "video_path": "dataset4/person5/person5_30.mp4",
+      "annotation_path": "dataset4/person5/annotation.txt"
+    },
+    "dataset5/boat3": {
+      "dataset": "dataset5",
+      "seq_name": "boat3",
+      "n_frames": 901,
+      "native_fps": 30,
+      "video_path": "dataset5/boat3/boat3_30.mp4",
+      "annotation_path": "dataset5/boat3/annotation.txt"
+    },
+    "dataset5/boat5": {
+      "dataset": "dataset5",
+      "seq_name": "boat5",
+      "n_frames": 505,
+      "native_fps": 30,
+      "video_path": "dataset5/boat5/boat5_30.mp4",
+      "annotation_path": "dataset5/boat5/annotation.txt"
+    },
+    "dataset5/boat8": {
+      "dataset": "dataset5",
+      "seq_name": "boat8",
+      "n_frames": 685,
+      "native_fps": 96,
+      "video_path": "dataset5/boat8/boat8_96.mp4",
+      "annotation_path": "dataset5/boat8/annotation.txt"
+    },
+    "dataset5/building1": {
+      "dataset": "dataset5",
+      "seq_name": "building1",
+      "n_frames": 469,
+      "native_fps": 30,
+      "video_path": "dataset5/building1/building1_30.mp4",
+      "annotation_path": "dataset5/building1/annotation.txt"
+    },
+    "dataset5/building4": {
+      "dataset": "dataset5",
+      "seq_name": "building4",
+      "n_frames": 787,
+      "native_fps": 30,
+      "video_path": "dataset5/building4/building4_30.mp4",
+      "annotation_path": "dataset5/building4/annotation.txt"
+    },
+    "dataset5/car3_s": {
+      "dataset": "dataset5",
+      "seq_name": "car3_s",
+      "n_frames": 1300,
+      "native_fps": 30,
+      "video_path": "dataset5/car3_s/car3_s_30.mp4",
+      "annotation_path": "dataset5/car3_s/annotation.txt"
+    },
+    "dataset5/car4": {
+      "dataset": "dataset5",
+      "seq_name": "car4",
+      "n_frames": 1345,
+      "native_fps": 96,
+      "video_path": "dataset5/car4/car4_96.mp4",
+      "annotation_path": "dataset5/car4/annotation.txt"
+    },
+    "dataset5/group2_1": {
+      "dataset": "dataset5",
+      "seq_name": "group2_1",
+      "n_frames": 907,
+      "native_fps": 96,
+      "video_path": "dataset5/group2_1/group2_1_96.mp4",
+      "annotation_path": "dataset5/group2_1/annotation.txt"
+    },
+    "dataset5/group2_2": {
+      "dataset": "dataset5",
+      "seq_name": "group2_2",
+      "n_frames": 865,
+      "native_fps": 96,
+      "video_path": "dataset5/group2_2/group2_2_96.mp4",
+      "annotation_path": "dataset5/group2_2/annotation.txt"
+    },
+    "dataset5/group2_3": {
+      "dataset": "dataset5",
+      "seq_name": "group2_3",
+      "n_frames": 913,
+      "native_fps": 96,
+      "video_path": "dataset5/group2_3/group2_3_96.mp4",
+      "annotation_path": "dataset5/group2_3/annotation.txt"
+    },
+    "dataset5/person1": {
+      "dataset": "dataset5",
+      "seq_name": "person1",
+      "n_frames": 799,
+      "native_fps": 30,
+      "video_path": "dataset5/person1/person1_30.mp4",
+      "annotation_path": "dataset5/person1/annotation.txt"
+    },
+    "dataset5/person15": {
+      "dataset": "dataset5",
+      "seq_name": "person15",
+      "n_frames": 1339,
+      "native_fps": 96,
+      "video_path": "dataset5/person15/person15_96.mp4",
+      "annotation_path": "dataset5/person15/annotation.txt"
+    },
+    "dataset5/person16": {
+      "dataset": "dataset5",
+      "seq_name": "person16",
+      "n_frames": 1147,
+      "native_fps": 96,
+      "video_path": "dataset5/person16/person16_96.mp4",
+      "annotation_path": "dataset5/person16/annotation.txt"
+    },
+    "dataset5/person19_1": {
+      "dataset": "dataset5",
+      "seq_name": "person19_1",
+      "n_frames": 1243,
+      "native_fps": 96,
+      "video_path": "dataset5/person19_1/person19_1_96.mp4",
+      "annotation_path": "dataset5/person19_1/annotation.txt"
+    },
+    "dataset5/person19_2": {
+      "dataset": "dataset5",
+      "seq_name": "person19_2",
+      "n_frames": 1549,
+      "native_fps": 96,
+      "video_path": "dataset5/person19_2/person19_2_96.mp4",
+      "annotation_path": "dataset5/person19_2/annotation.txt"
+    },
+    "dataset5/person19_3": {
+      "dataset": "dataset5",
+      "seq_name": "person19_3",
+      "n_frames": 1567,
+      "native_fps": 96,
+      "video_path": "dataset5/person19_3/person19_3_96.mp4",
+      "annotation_path": "dataset5/person19_3/annotation.txt"
+    },
+    "dataset5/person20": {
+      "dataset": "dataset5",
+      "seq_name": "person20",
+      "n_frames": 1783,
+      "native_fps": 96,
+      "video_path": "dataset5/person20/person20_96.mp4",
+      "annotation_path": "dataset5/person20/annotation.txt"
+    },
+    "dataset5/person3_s": {
+      "dataset": "dataset5",
+      "seq_name": "person3_s",
+      "n_frames": 505,
+      "native_fps": 30,
+      "video_path": "dataset5/person3_s/person3_s_30.mp4",
+      "annotation_path": "dataset5/person3_s/annotation.txt"
+    },
+    "dataset5/person4_1": {
+      "dataset": "dataset5",
+      "seq_name": "person4_1",
+      "n_frames": 1501,
+      "native_fps": 30,
+      "video_path": "dataset5/person4_1/person4_1_30.mp4",
+      "annotation_path": "dataset5/person4_1/annotation.txt"
+    },
+    "dataset5/person4_2": {
+      "dataset": "dataset5",
+      "seq_name": "person4_2",
+      "n_frames": 1243,
+      "native_fps": 30,
+      "video_path": "dataset5/person4_2/person4_2_30.mp4",
+      "annotation_path": "dataset5/person4_2/annotation.txt"
+    },
+    "dataset5/person5_1": {
+      "dataset": "dataset5",
+      "seq_name": "person5_1",
+      "n_frames": 877,
+      "native_fps": 30,
+      "video_path": "dataset5/person5_1/person5_1_30.mp4",
+      "annotation_path": "dataset5/person5_1/annotation.txt"
+    },
+    "dataset5/person5_2": {
+      "dataset": "dataset5",
+      "seq_name": "person5_2",
+      "n_frames": 1225,
+      "native_fps": 30,
+      "video_path": "dataset5/person5_2/person5_2_30.mp4",
+      "annotation_path": "dataset5/person5_2/annotation.txt"
+    },
+    "dataset5/person6": {
+      "dataset": "dataset5",
+      "seq_name": "person6",
+      "n_frames": 901,
+      "native_fps": 30,
+      "video_path": "dataset5/person6/person6_30.mp4",
+      "annotation_path": "dataset5/person6/annotation.txt"
+    },
+    "dataset5/truck3": {
+      "dataset": "dataset5",
+      "seq_name": "truck3",
+      "n_frames": 535,
+      "native_fps": 30,
+      "video_path": "dataset5/truck3/truck3_30.mp4",
+      "annotation_path": "dataset5/truck3/annotation.txt"
+    },
+    "dataset5/uav2": {
+      "dataset": "dataset5",
+      "seq_name": "uav2",
+      "n_frames": 133,
+      "native_fps": 30,
+      "video_path": "dataset5/uav2/uav2_30.mp4",
+      "annotation_path": "dataset5/uav2/annotation.txt"
+    },
+    "dataset5/uav7": {
+      "dataset": "dataset5",
+      "seq_name": "uav7",
+      "n_frames": 373,
+      "native_fps": 30,
+      "video_path": "dataset5/uav7/uav7_30.mp4",
+      "annotation_path": "dataset5/uav7/annotation.txt"
+    },
+    "dataset5/wakeboard10": {
+      "dataset": "dataset5",
+      "seq_name": "wakeboard10",
+      "n_frames": 469,
+      "native_fps": 96,
+      "video_path": "dataset5/wakeboard10/wakeboard10_96.mp4",
+      "annotation_path": "dataset5/wakeboard10/annotation.txt"
+    },
+    "dataset5/wakeboard6": {
+      "dataset": "dataset5",
+      "seq_name": "wakeboard6",
+      "n_frames": 1165,
+      "native_fps": 96,
+      "video_path": "dataset5/wakeboard6/wakeboard6_96.mp4",
+      "annotation_path": "dataset5/wakeboard6/annotation.txt"
+    },
+    "dataset5/wakeboard7": {
+      "dataset": "dataset5",
+      "seq_name": "wakeboard7",
+      "n_frames": 199,
+      "native_fps": 96,
+      "video_path": "dataset5/wakeboard7/wakeboard7_96.mp4",
+      "annotation_path": "dataset5/wakeboard7/annotation.txt"
+    }
+  }
+}
