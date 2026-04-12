@@ -1168,22 +1168,6 @@
       "video_path": "dataset3/uav5/uav5_24.mp4",
       "annotation_path": "dataset3/uav5/annotation.txt"
     },
-    "dataset4/bike1": {
-      "dataset": "dataset4",
-      "seq_name": "bike1",
-      "n_frames": 3085,
-      "native_fps": 30,
-      "video_path": "dataset4/bike1/bike1_30.mp4",
-      "annotation_path": "dataset4/bike1/annotation.txt"
-    },
-    "dataset4/bird1": {
-      "dataset": "dataset4",
-      "seq_name": "bird1",
-      "n_frames": 2437,
-      "native_fps": 30,
-      "video_path": "dataset4/bird1/bird1_30.mp4",
-      "annotation_path": "dataset4/bird1/annotation.txt"
-    },
     "dataset4/car1": {
       "dataset": "dataset4",
       "seq_name": "car1",

@@ -18,7 +18,7 @@ def load_tracker():
     update_config_from_file(config_path)
 
     from easydict import EasyDict
-    checkpoint_path = r'F:\Cornea\output\checkpoints\train\HiT\HiT_Base\HiT_Base.pth'
+    checkpoint_path = r'F:\Cornea\output\checkpoints\train\HiT\HiT_Base_finetune\checkpoints\HiT\HiT_Base_finetune\HiT_ep0050.pth.tar'
 
     params = EasyDict()
     params.cfg = cfg
