@@ -1,15 +1,36 @@
 import json
+import random
 import cv2
 import sys
 import os
 import re
 import numpy as np
+import torch
 
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'ORTrack'))
 
 from lib.test.tracker.ortrack import ORTrack
 from lib.config.ortrack.config import cfg, update_config_from_file
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# DETERMINISM SETUP  ← moved into a function, called before EVERY sequence
+# ─────────────────────────────────────────────────────────────────────────────
+SEED = 42
+
+def set_seeds():
+    torch.manual_seed(SEED)
+    torch.cuda.manual_seed(SEED)
+    torch.cuda.manual_seed_all(SEED)          # for multi-GPU safety
+    np.random.seed(SEED)
+    random.seed(SEED)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+    torch.use_deterministic_algorithms(True)  # ← the key missing line
+    os.environ["CUBLAS_WORKSPACE_CONFIG"] = ":4096:8"  # required by PyTorch ≥1.11
+
+set_seeds()  # once at startup too
 
 # ─────────────────────────────────────────────────────────────────────────────
 # CONFIG
@@ -21,13 +42,8 @@ MANIFEST_PATH = os.path.join(BASE_DIR, 'metadata', 'contestant_manifest_val30.js
 DATA_ROOT     = os.path.join(BASE_DIR, 'data')
 
 CHECKPOINT_PATH = os.path.join(
-    ORTRACK_DIR,
-    'output',
-    'checkpoints',
-    'train',
-    'ortrack',
-    'Train_V1.4',
-    'ORTrack_ep0015.pth'
+    ORTRACK_DIR, 'output', 'checkpoints', 'train',
+    'ortrack', 'deit_tiny_patch16_224', 'ORTrack_ep0300.pth'
 )
 
 W1 = 0.6
@@ -36,15 +52,10 @@ W2 = 0.4
 
 
 def load_tracker():
-    config_name = 'ortrack_finetune'  
-    
+    config_name = 'deit_tiny_patch16_224'
     config_path = os.path.join(
-    ORTRACK_DIR,
-    'experiments',
-    'ortrack',
-    f'{config_name}.yaml'
+        ORTRACK_DIR, 'experiments', 'ortrack', f'{config_name}.yaml'
     )
-
     update_config_from_file(config_path)
 
     from easydict import EasyDict
@@ -85,6 +96,12 @@ def parse_annotation(path):
 
 def track_sequence(tracker, video_path, init_bbox, n_frames):
     cap = cv2.VideoCapture(video_path)
+
+    # ── Force software decoding to avoid hardware decoder non-determinism ──
+    cap.set(cv2.CAP_PROP_HW_ACCELERATION, cv2.VIDEO_ACCELERATION_NONE)  # ← NEW
+    # Disable OpenCV's internal thread pool to prevent frame-read races
+    cv2.setNumThreads(0)  # ← NEW
+
     results = []
     frame_idx = 0
 
@@ -103,7 +120,6 @@ def track_sequence(tracker, video_path, init_bbox, n_frames):
             pred_box = list(output['target_bbox'])
             results.append([float(pred_box[0]), float(pred_box[1]),
                             float(pred_box[2]), float(pred_box[3])])
-
         frame_idx += 1
 
     cap.release()
@@ -111,7 +127,7 @@ def track_sequence(tracker, video_path, init_bbox, n_frames):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Scoring helpers
+# Scoring helpers  (unchanged)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def iou(pred, gt):
@@ -154,7 +170,7 @@ def main():
     with open(MANIFEST_PATH, 'r') as f:
         manifest = json.load(f)
 
-    sequences = manifest['train']   # all 30 val sequences
+    sequences = manifest['train']
     total     = len(sequences)
     print(f"Evaluating on {total} validation sequences (held-out, never trained on)\n")
 
@@ -171,7 +187,9 @@ def main():
 
         print(f"[{idx+1}/{total}] {seq_id} ({n_frames} frames) | init: {init_bbox}")
 
-        tracker    = load_tracker()   # fresh tracker per sequence
+        set_seeds()  
+
+        tracker    = load_tracker()
         pred_boxes = track_sequence(tracker, video_path, init_bbox, n_frames)
 
         min_len    = min(len(pred_boxes), len(gt_boxes))
@@ -182,7 +200,6 @@ def main():
         per_seq[seq_id] = {'auc': auc, 'norm_precision': np_val}
         print(f"         AUC={auc:.4f}  NormPrec={np_val:.4f}")
 
-    # ── Final score ──────────────────────────────────────────────────────────
     mean_auc = float(np.mean([v['auc']            for v in per_seq.values()]))
     mean_np  = float(np.mean([v['norm_precision'] for v in per_seq.values()]))
     sacc     = W1 * mean_auc + W2 * mean_np

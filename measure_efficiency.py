@@ -31,8 +31,8 @@ checkpoint_path = os.path.join(
     'checkpoints',
     'train',
     'ortrack',
-    'deit_tiny_patch16_224',
-    'ORTrack_ep0300.pth'
+    'Train_V1.3',
+    'ORTrack_ep0020.pth'
 )
 
 params = EasyDict()

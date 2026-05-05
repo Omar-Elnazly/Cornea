@@ -23,8 +23,8 @@ CHECKPOINT_PATH = os.path.join(
     'checkpoints',
     'train',
     'ortrack',
-    'Train_V1.4',
-    'ORTrack_ep0015.pth'
+    'Train_v1.3',
+    'ORTrack_ep0020.pth'
 )
 
 SUBMISSION_TPL = os.path.join(BASE_DIR, 'metadata', 'sample_submission.csv')
@@ -32,7 +32,7 @@ OUTPUT_CSV     = os.path.join(BASE_DIR, 'submission_output.csv')
 
 
 def load_tracker():
-    config_name = 'ortrack_finetune'
+    config_name = 'deit_tiny_patch16_224'
     config_path = os.path.join(os.path.dirname(__file__), 'ORTrack', 'experiments', 'ortrack', f'{config_name}.yaml')
     update_config_from_file(config_path)
 
@@ -72,8 +72,8 @@ def track_sequence(tracker, video_path, init_bbox, n_frames):
         else:
             output = tracker.track(frame_rgb)
             pred_box = output['target_bbox']
-            results.append([int(pred_box[0]), int(pred_box[1]),
-                            int(pred_box[2]), int(pred_box[3])])
+            results.append([float(pred_box[0]), float(pred_box[1]),
+                            float(pred_box[2]), float(pred_box[3])])
 
         frame_idx += 1
 
@@ -95,6 +95,8 @@ def main():
     all_predictions = {}
     public_lb   = manifest.get('public_lb', {})
     total_seqs  = len(public_lb)
+    
+    tracker = load_tracker()
 
     for idx, (seq_id, seq_info) in enumerate(public_lb.items()):
         video_path = os.path.join(DATA_ROOT, seq_info['video_path'].replace('/', os.sep))
@@ -116,7 +118,6 @@ def main():
             h, w = frame.shape[:2]
             init_bbox = [w//4, h//4, w//2, h//2]
 
-        tracker = load_tracker()  
         preds   = track_sequence(tracker, video_path, init_bbox, n_frames)
 
         for i, box in enumerate(preds):
