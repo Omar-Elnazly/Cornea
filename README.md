@@ -60,7 +60,7 @@ After downloading the dataset and checkpoint, your directory should look like th
 
 ```
 Cornea/
-├── data/
+├── competition_data/
 │   ├── dataset1/
 │   ├── dataset2/
 │   ├── dataset3/
@@ -146,7 +146,7 @@ ORTrack/output/checkpoints/train/ortrack/Train_V1.3/ORTrack_ep0020.pth
 
 ### Setup dataset & metadata
 
-Place the competition data under `data/` and the two metadata files under `metadata/` as shown in the directory structure above.
+Place the competition data under `competition_data/` and the two metadata files under `metadata/` as shown in the directory structure above.
 
 ### Run inference (public leaderboard)
 
@@ -180,7 +180,7 @@ To run inference on the hidden test set, two small changes are needed in `infere
 
 ```python
 # Default (public data)
-DATA_ROOT = os.path.join(BASE_DIR, 'data')
+DATA_ROOT = os.path.join(BASE_DIR, 'competition_data')
 
 # Change to your hidden data folder, for example:
 DATA_ROOT = '/path/to/hidden/data'
