@@ -39,7 +39,7 @@ BASE_DIR = os.path.dirname(__file__)
 ORTRACK_DIR = os.path.join(BASE_DIR, 'ORTrack')
 
 MANIFEST_PATH = os.path.join(BASE_DIR, 'metadata', 'contestant_manifest_val30.json')
-DATA_ROOT     = os.path.join(BASE_DIR, 'data')
+DATA_ROOT     = os.path.join(BASE_DIR, 'competition_data')
 
 CHECKPOINT_PATH = os.path.join(
     ORTRACK_DIR, 'output', 'checkpoints', 'train',

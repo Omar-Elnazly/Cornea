@@ -1,7 +1,6 @@
-data/
+competition_data/
 data_small/
 cornea-external-uav/
-output/checkpoints/
 ORTrack/output/
 *.pth
 *.pth.tar

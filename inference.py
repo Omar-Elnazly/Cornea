@@ -14,7 +14,7 @@ from lib.config.ortrack.config import cfg, update_config_from_file
 BASE_DIR = os.path.dirname(__file__)
 
 MANIFEST_PATH = os.path.join(BASE_DIR, 'metadata', 'contestant_manifest.json')
-DATA_ROOT     = os.path.join(BASE_DIR, 'data')
+DATA_ROOT     = os.path.join(BASE_DIR, 'competition_data')
 
 CHECKPOINT_PATH = os.path.join(
     BASE_DIR,
@@ -23,7 +23,7 @@ CHECKPOINT_PATH = os.path.join(
     'checkpoints',
     'train',
     'ortrack',
-    'Train_v1.3',
+    'Train_V1.3',
     'ORTrack_ep0020.pth'
 )
 
