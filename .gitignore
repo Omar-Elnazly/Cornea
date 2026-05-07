@@ -8,4 +8,4 @@ ORTrack/output/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-submission.csv
+submission_output.csv
