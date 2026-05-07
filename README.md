@@ -87,7 +87,6 @@ Cornea/
 │   │               └── Train_V1.3/
 │   │                   └── ORTrack_ep0020.pth   ← place checkpoint here
 │   └── tracking/
-├── environment.yml
 ├── inference.py
 ├── inference_score.py
 ├── measure_efficiency.py
@@ -125,7 +124,7 @@ conda activate cornea
 
 pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
 
-pip install lmdb==1.4.1 pycocotools-windows
+pip install pycocotools-windows
 
 pip install -r requirements.txt
 ```
