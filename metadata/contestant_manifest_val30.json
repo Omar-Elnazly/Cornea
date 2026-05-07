@@ -1,0 +1,245 @@
+{
+  "train": {
+    "dataset1/Car_video_2": {
+      "dataset": "dataset1",
+      "seq_name": "Car_video_2",
+      "n_frames": 678,
+      "native_fps": 60,
+      "video_path": "dataset1/Car_video_2/Car_video_2.mp4",
+      "annotation_path": "dataset1/Car_video_2/annotation.txt"
+    },
+    "dataset1/Car_video_3": {
+      "dataset": "dataset1",
+      "seq_name": "Car_video_3",
+      "n_frames": 223,
+      "native_fps": 24,
+      "video_path": "dataset1/Car_video_3/Car_video_3.mp4",
+      "annotation_path": "dataset1/Car_video_3/annotation.txt"
+    },
+    "dataset1/horse_4": {
+      "dataset": "dataset1",
+      "seq_name": "horse_4",
+      "n_frames": 235,
+      "native_fps": 25,
+      "video_path": "dataset1/horse_4/horse_4.mp4",
+      "annotation_path": "dataset1/horse_4/annotation.txt"
+    },
+    "dataset1/horse_6": {
+      "dataset": "dataset1",
+      "seq_name": "horse_6",
+      "n_frames": 448,
+      "native_fps": 30,
+      "video_path": "dataset1/horse_6/horse_6.mp4",
+      "annotation_path": "dataset1/horse_6/annotation.txt"
+    },
+    "dataset1/motorcycle": {
+      "dataset": "dataset1",
+      "seq_name": "motorcycle",
+      "n_frames": 801,
+      "native_fps": 30,
+      "video_path": "dataset1/motorcycle/motorcycle.mp4",
+      "annotation_path": "dataset1/motorcycle/annotation.txt"
+    },
+    "dataset1/person_4": {
+      "dataset": "dataset1",
+      "seq_name": "person_4",
+      "n_frames": 602,
+      "native_fps": 24,
+      "video_path": "dataset1/person_4/person_4.mp4",
+      "annotation_path": "dataset1/person_4/annotation.txt"
+    },
+    "dataset1/plane": {
+      "dataset": "dataset1",
+      "seq_name": "plane",
+      "n_frames": 358,
+      "native_fps": 30,
+      "video_path": "dataset1/plane/plane.mp4",
+      "annotation_path": "dataset1/plane/annotation.txt"
+    },
+    "dataset1/surfer": {
+      "dataset": "dataset1",
+      "seq_name": "surfer",
+      "n_frames": 150,
+      "native_fps": 30,
+      "video_path": "dataset1/surfer/surfer.mp4",
+      "annotation_path": "dataset1/surfer/annotation.txt"
+    },
+    "dataset1/volleyball": {
+      "dataset": "dataset1",
+      "seq_name": "volleyball",
+      "n_frames": 2088,
+      "native_fps": 50,
+      "video_path": "dataset1/volleyball/volleyball.mp4",
+      "annotation_path": "dataset1/volleyball/annotation.txt"
+    },
+    "dataset2/Animal1": {
+      "dataset": "dataset2",
+      "seq_name": "Animal1",
+      "n_frames": 147,
+      "native_fps": 30,
+      "video_path": "dataset2/Animal1/Animal1_30.mp4",
+      "annotation_path": "dataset2/Animal1/annotation.txt"
+    },
+    "dataset2/Animal2": {
+      "dataset": "dataset2",
+      "seq_name": "Animal2",
+      "n_frames": 149,
+      "native_fps": 30,
+      "video_path": "dataset2/Animal2/Animal2_30.mp4",
+      "annotation_path": "dataset2/Animal2/annotation.txt"
+    },
+    "dataset2/Animal4": {
+      "dataset": "dataset2",
+      "seq_name": "Animal4",
+      "n_frames": 167,
+      "native_fps": 24,
+      "video_path": "dataset2/Animal4/Animal4_24.mp4",
+      "annotation_path": "dataset2/Animal4/annotation.txt"
+    },
+    "dataset2/BMX2": {
+      "dataset": "dataset2",
+      "seq_name": "BMX2",
+      "n_frames": 160,
+      "native_fps": 30,
+      "video_path": "dataset2/BMX2/BMX2_30.mp4",
+      "annotation_path": "dataset2/BMX2/annotation.txt"
+    },
+    "dataset2/BMX3": {
+      "dataset": "dataset2",
+      "seq_name": "BMX3",
+      "n_frames": 121,
+      "native_fps": 30,
+      "video_path": "dataset2/BMX3/BMX3_30.mp4",
+      "annotation_path": "dataset2/BMX3/annotation.txt"
+    },
+    "dataset2/BMX4": {
+      "dataset": "dataset2",
+      "seq_name": "BMX4",
+      "n_frames": 364,
+      "native_fps": 30,
+      "video_path": "dataset2/BMX4/BMX4_30.mp4",
+      "annotation_path": "dataset2/BMX4/annotation.txt"
+    },
+    "dataset2/BMX5": {
+      "dataset": "dataset2",
+      "seq_name": "BMX5",
+      "n_frames": 277,
+      "native_fps": 30,
+      "video_path": "dataset2/BMX5/BMX5_30.mp4",
+      "annotation_path": "dataset2/BMX5/annotation.txt"
+    },
+    "dataset2/Basketball": {
+      "dataset": "dataset2",
+      "seq_name": "Basketball",
+      "n_frames": 427,
+      "native_fps": 24,
+      "video_path": "dataset2/Basketball/Basketball_24.mp4",
+      "annotation_path": "dataset2/Basketball/annotation.txt"
+    },
+    "dataset2/Car2": {
+      "dataset": "dataset2",
+      "seq_name": "Car2",
+      "n_frames": 74,
+      "native_fps": 24,
+      "video_path": "dataset2/Car2/Car2_24.mp4",
+      "annotation_path": "dataset2/Car2/annotation.txt"
+    },
+    "dataset2/Car6": {
+      "dataset": "dataset2",
+      "seq_name": "Car6",
+      "n_frames": 381,
+      "native_fps": 24,
+      "video_path": "dataset2/Car6/Car6_24.mp4",
+      "annotation_path": "dataset2/Car6/annotation.txt"
+    },
+    "dataset2/Car8": {
+      "dataset": "dataset2",
+      "seq_name": "Car8",
+      "n_frames": 319,
+      "native_fps": 24,
+      "video_path": "dataset2/Car8/Car8_24.mp4",
+      "annotation_path": "dataset2/Car8/annotation.txt"
+    },
+    "dataset2/ChasingDrones": {
+      "dataset": "dataset2",
+      "seq_name": "ChasingDrones",
+      "n_frames": 212,
+      "native_fps": 24,
+      "video_path": "dataset2/ChasingDrones/ChasingDrones_24.mp4",
+      "annotation_path": "dataset2/ChasingDrones/annotation.txt"
+    },
+    "dataset2/Girl1": {
+      "dataset": "dataset2",
+      "seq_name": "Girl1",
+      "n_frames": 218,
+      "native_fps": 30,
+      "video_path": "dataset2/Girl1/Girl1_30.mp4",
+      "annotation_path": "dataset2/Girl1/annotation.txt"
+    },
+    "dataset2/Girl2": {
+      "dataset": "dataset2",
+      "seq_name": "Girl2",
+      "n_frames": 626,
+      "native_fps": 24,
+      "video_path": "dataset2/Girl2/Girl2_24.mp4",
+      "annotation_path": "dataset2/Girl2/annotation.txt"
+    },
+    "dataset2/Gull1": {
+      "dataset": "dataset2",
+      "seq_name": "Gull1",
+      "n_frames": 120,
+      "native_fps": 24,
+      "video_path": "dataset2/Gull1/Gull1_24.mp4",
+      "annotation_path": "dataset2/Gull1/annotation.txt"
+    },
+    "dataset2/Gull2": {
+      "dataset": "dataset2",
+      "seq_name": "Gull2",
+      "n_frames": 237,
+      "native_fps": 24,
+      "video_path": "dataset2/Gull2/Gull2_24.mp4",
+      "annotation_path": "dataset2/Gull2/annotation.txt"
+    },
+    "dataset2/Horse2": {
+      "dataset": "dataset2",
+      "seq_name": "Horse2",
+      "n_frames": 126,
+      "native_fps": 24,
+      "video_path": "dataset2/Horse2/Horse2_24.mp4",
+      "annotation_path": "dataset2/Horse2/annotation.txt"
+    },
+    "dataset2/Kiting": {
+      "dataset": "dataset2",
+      "seq_name": "Kiting",
+      "n_frames": 129,
+      "native_fps": 24,
+      "video_path": "dataset2/Kiting/Kiting_24.mp4",
+      "annotation_path": "dataset2/Kiting/annotation.txt"
+    },
+    "dataset2/ManRunning1": {
+      "dataset": "dataset2",
+      "seq_name": "ManRunning1",
+      "n_frames": 619,
+      "native_fps": 24,
+      "video_path": "dataset2/ManRunning1/ManRunning1_24.mp4",
+      "annotation_path": "dataset2/ManRunning1/annotation.txt"
+    },
+    "dataset2/ManRunning2": {
+      "dataset": "dataset2",
+      "seq_name": "ManRunning2",
+      "n_frames": 260,
+      "native_fps": 24,
+      "video_path": "dataset2/ManRunning2/ManRunning2_24.mp4",
+      "annotation_path": "dataset2/ManRunning2/annotation.txt"
+    },
+    "dataset2/Motor2": {
+      "dataset": "dataset2",
+      "seq_name": "Motor2",
+      "n_frames": 68,
+      "native_fps": 24,
+      "video_path": "dataset2/Motor2/Motor2_24.mp4",
+      "annotation_path": "dataset2/Motor2/annotation.txt"
+    }
+  },
+  "public_lb": {}
+}

@@ -2,7 +2,7 @@ data/
 data_small/
 cornea-external-uav/
 output/checkpoints/
-metadata/
+ORTrack/output/
 *.pth
 *.pth.tar
 *.mp4
