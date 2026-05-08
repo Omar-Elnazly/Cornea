@@ -126,7 +126,7 @@ sudo docker run --gpus all \
   cornea-tracker
 ```
 
-> Replace `PATH_TO` with the actual path to your data folder.
+Replace `PATH_TO` with the actual path to your data folder.
 
 ### Step 5 — Get your results
 
