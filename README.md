@@ -87,7 +87,7 @@ docker build -t cornea-tracker .
 sudo docker build -t cornea-tracker .
 ```
 
-This takes 15–30 minutes the first time (downloads CUDA base image + PyTorch). Subsequent builds are fast due to caching.
+> This takes 15–30 minutes the first time (downloads CUDA base image + PyTorch). Subsequent builds are fast due to caching.
 
 ### Step 3 — Prepare your folders
 
@@ -126,7 +126,7 @@ sudo docker run --gpus all \
   cornea-tracker
 ```
 
-Replace `PATH_TO` with the actual path to your data folder.
+> Replace `PATH_TO` with the actual path to your data folder.
 
 ### Step 5 — Get your results
 
