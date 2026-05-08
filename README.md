@@ -54,6 +54,87 @@ Efficiency metrics measured on **NVIDIA GeForce RTX 3050 Ti Laptop GPU**:
 
 ---
 
+## Running with Docker (Recommended)
+
+Docker is the easiest way to run inference — no Python environment setup required. Everything is pre-installed inside the container.
+
+### Prerequisites
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
+- NVIDIA GPU + [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) installed
+- Checkpoint file downloaded from the [Google Drive link](#model-checkpoint) above
+
+> **Windows users:** After installing Docker Desktop, make sure GPU support is enabled under Settings → Resources → GPU.
+
+### Step 1 — Clone this repository
+
+```bash
+git clone https://github.com/Omar-Elnazly/Cornea
+cd Cornea
+```
+
+### Step 2 — Build the Docker image
+
+```bash
+docker build -t cornea-tracker .
+```
+
+This takes 15–30 minutes the first time (downloads CUDA base image + PyTorch). Subsequent builds are fast due to caching.
+
+### Step 3 — Prepare your folders
+
+Organize your data anywhere on your machine like this:
+
+```
+anywhere/
+├── competition_data/        ← your competition videos
+├── metadata/                ← contestant_manifest.json + sample_submission.csv
+├── checkpoints/
+│   └── ORTrack_ep0020.pth   ← downloaded checkpoint
+└── output/                  ← results will appear here (start empty)
+```
+
+### Step 4 — Run inference
+
+**Windows (PowerShell):**
+
+```powershell
+docker run --gpus all `
+  -v "PATH_TO\competition_data:/app/competition_data" `
+  -v "PATH_TO\checkpoints\ORTrack_ep0020.pth:/app/ORTrack/output/checkpoints/train/ortrack/Train_V1.3/ORTrack_ep0020.pth" `
+  -v "PATH_TO\metadata:/app/metadata" `
+  -v "PATH_TO\output:/app/output_results" `
+  cornea-tracker
+```
+
+**Linux / macOS:**
+
+```bash
+docker run --gpus all \
+  -v "/path/to/competition_data:/app/competition_data" \
+  -v "/path/to/checkpoints/ORTrack_ep0020.pth:/app/ORTrack/output/checkpoints/train/ortrack/Train_V1.3/ORTrack_ep0020.pth" \
+  -v "/path/to/metadata:/app/metadata" \
+  -v "/path/to/output:/app/output_results" \
+  cornea-tracker
+```
+
+Replace `PATH_TO` with the actual path to your data folder.
+
+### Step 5 — Get your results
+
+When inference finishes you will see:
+
+```
+Done! Submission saved to: output_results/submission_output.csv
+Total rows written: XXXXX
+```
+
+Your `submission_output.csv` will be in the `output/` folder you mounted in Step 4.
+
+> **Disk space note:** The Docker image is approximately 15 GB. Make sure you have enough free space on the drive where Docker stores its data. On Windows, it is recommended to configure Docker to store data on a drive with at least 30 GB free.
+
+---
+
 ## Repository Structure
 
 After downloading the dataset and checkpoint, your directory should look like this:
@@ -87,6 +168,8 @@ Cornea/
 │   │               └── Train_V1.3/
 │   │                   └── ORTrack_ep0020.pth   ← place checkpoint here
 │   └── tracking/
+├── Dockerfile
+├── .dockerignore
 ├── inference.py
 ├── inference_score.py
 ├── measure_efficiency.py
@@ -96,7 +179,7 @@ Cornea/
 
 ---
 
-## Environment Setup
+## Manual Environment Setup (Without Docker)
 
 ### Requirements
 
@@ -158,7 +241,7 @@ This will:
 1. Load the fine-tuned ORTrack model
 2. Read all `public_lb` sequences from `metadata/contestant_manifest.json`
 3. Track each sequence and collect per-frame bounding box predictions
-4. Write results to `submission_output.csv` in the project root
+4. Write results to `output_results/submission_output.csv`
 
 ### Output format
 
