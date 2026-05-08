@@ -82,6 +82,7 @@ def track_sequence(tracker, video_path, init_bbox, n_frames):
 
 
 def main():
+    os.makedirs(os.path.join(BASE_DIR, 'output_results'), exist_ok=True)
     with open(MANIFEST_PATH, 'r') as f:
         manifest = json.load(f)
 
