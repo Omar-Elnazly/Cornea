@@ -56,7 +56,7 @@ Efficiency metrics measured on **NVIDIA GeForce RTX 3050 Ti Laptop GPU**:
 
 ## Running with Docker (Recommended)
 
-Docker is the easiest way to run inference — no Python environment setup required. Everything is pre-installed inside the container.
+Docker is the easiest way to run inference no Python environment setup required. Everything is pre-installed inside the container.
 
 ### Prerequisites
 
