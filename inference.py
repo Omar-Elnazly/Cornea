@@ -28,7 +28,7 @@ CHECKPOINT_PATH = os.path.join(
 )
 
 SUBMISSION_TPL = os.path.join(BASE_DIR, 'metadata', 'sample_submission.csv')
-OUTPUT_CSV     = os.path.join(BASE_DIR, 'submission_output.csv')
+OUTPUT_CSV     = os.path.join(BASE_DIR, 'output_results', 'submission_output.csv')
 
 
 def load_tracker():

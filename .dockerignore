@@ -1,0 +1,7 @@
+competition_data/
+ORTrack/output/checkpoints/
+submission_output.csv
+__pycache__/
+*.pyc
+.git/
+output_results/
