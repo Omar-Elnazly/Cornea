@@ -75,8 +75,16 @@ cd Cornea
 
 ### Step 2 — Build the Docker image
 
-```bash
+**Windows (PowerShell):**
+
+```powershell
 docker build -t cornea-tracker .
+```
+
+**Linux / macOS:**
+
+```bash
+sudo docker build -t cornea-tracker .
 ```
 
 This takes 15–30 minutes the first time (downloads CUDA base image + PyTorch). Subsequent builds are fast due to caching.
@@ -100,17 +108,17 @@ anywhere/
 
 ```powershell
 docker run --gpus all `
-  -v "PATH_TO\competition_data:/app/competition_data" `
-  -v "PATH_TO\checkpoints\ORTrack_ep0020.pth:/app/ORTrack/output/checkpoints/train/ortrack/Train_V1.3/ORTrack_ep0020.pth" `
-  -v "PATH_TO\metadata:/app/metadata" `
-  -v "PATH_TO\output:/app/output_results" `
+  -v "C:\path\to\competition_data:/app/competition_data" `
+  -v "C:\path\to\checkpoints\ORTrack_ep0020.pth:/app/ORTrack/output/checkpoints/train/ortrack/Train_V1.3/ORTrack_ep0020.pth" `
+  -v "C:\path\to\metadata:/app/metadata" `
+  -v "C:\path\to\output:/app/output_results" `
   cornea-tracker
 ```
 
 **Linux / macOS:**
 
 ```bash
-docker run --gpus all \
+sudo docker run --gpus all \
   -v "/path/to/competition_data:/app/competition_data" \
   -v "/path/to/checkpoints/ORTrack_ep0020.pth:/app/ORTrack/output/checkpoints/train/ortrack/Train_V1.3/ORTrack_ep0020.pth" \
   -v "/path/to/metadata:/app/metadata" \
