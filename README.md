@@ -174,7 +174,9 @@ Cornea/
 ├── inference_score.py
 ├── measure_efficiency.py
 ├── resize_videos.py
+├── output_results/          ← submission_output.csv will be written here
 └── requirements.txt
+
 ```
 
 ---
