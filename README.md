@@ -1,6 +1,6 @@
 # Cornea — MTC-AIC4: Efficient Aerial Single-Object Tracking
 
-**Team submission for the MTC-AIC4 Kaggle Competition (Phase I)**
+**Team submission for the MTC-AIC4 Kaggle Competition**
 Tracker: [ORTrack](https://github.com/wuyou3474/ORTrack) fine-tuned on aerial UAV datasets.
 
 ---
